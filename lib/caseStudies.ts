@@ -115,7 +115,7 @@ export const caseStudies: CaseStudyData[] = [
               "Rewarded curiosity and exploration",
               "Encouraged referrals",
               "Increased repeat engagement",
-              "Created compelling upgrade moments for non-Gold users".
+              "Created compelling upgrade moments for non-Gold users",
             ],
           },
           {
