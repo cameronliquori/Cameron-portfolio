@@ -7,6 +7,8 @@ import ArtifactBlock from "@/components/ArtifactBlock";
 import Button from "@/components/Button";
 
 export default function CaseStudyTemplate({ caseStudy }: { caseStudy: CaseStudyData }) {
+  const h = caseStudy.headings ?? {};
+
   return (
     <article>
       <CaseStudyHero
@@ -16,20 +18,20 @@ export default function CaseStudyTemplate({ caseStudy }: { caseStudy: CaseStudyD
 
       <div className="max-w-page mx-auto px-6 md:px-10">
         <SupportingTextSection
-          heading="Overview and impact"
+          heading={h.overviewHeading}
           groups={[
-            { label: "The need", items: caseStudy.overview.need },
-            { label: "The goal", items: caseStudy.overview.goal },
-            { label: "The plan", items: caseStudy.overview.plan },
+            { label: h.needLabel, items: caseStudy.overview.need },
+            { label: h.goalLabel, items: caseStudy.overview.goal },
+            { label: h.planLabel, items: caseStudy.overview.plan },
           ]}
         />
 
         <SupportingTextSection
-          heading="The challenge"
+          heading={h.challengeHeading}
           groups={[
-            { label: "Limitations", items: caseStudy.challenge.limitations },
-            { label: "The team", items: caseStudy.challenge.team },
-            { label: "Timeline", items: caseStudy.challenge.timeline },
+            { label: h.limitationsLabel, items: caseStudy.challenge.limitations },
+            { label: h.teamLabel, items: caseStudy.challenge.team },
+            { label: h.timelineLabel, items: caseStudy.challenge.timeline },
           ]}
         />
 
@@ -38,7 +40,9 @@ export default function CaseStudyTemplate({ caseStudy }: { caseStudy: CaseStudyD
         ))}
 
         <div className="py-16 border-t border-line">
-          <h2 className="font-display text-h2 mb-8">Outcome</h2>
+          {h.outcomeHeading && (
+            <h2 className="font-display text-h2 mb-8">{h.outcomeHeading}</h2>
+          )}
 
           {caseStudy.outcome.images.length > 0 && (
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 max-w-artifact">
@@ -54,7 +58,9 @@ export default function CaseStudyTemplate({ caseStudy }: { caseStudy: CaseStudyD
 
       <section className="bg-sage-400">
         <div className="max-w-page mx-auto px-6 md:px-10 py-16 md:py-24">
-          <h2 className="font-display text-h2 mb-4">Reflection</h2>
+          {h.reflectionHeading && (
+            <h2 className="font-display text-h2 mb-4">{h.reflectionHeading}</h2>
+          )}
           <p className="text-body text-ink/80 max-w-reading">
             {caseStudy.reflection}
           </p>
@@ -69,3 +75,4 @@ export default function CaseStudyTemplate({ caseStudy }: { caseStudy: CaseStudyD
     </article>
   );
 }
+
