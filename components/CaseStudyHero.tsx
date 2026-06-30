@@ -1,9 +1,11 @@
 export default function CaseStudyHero({
   title,
   description,
+  heroMetricsSummary,
 }: {
   title: string;
   description: string;
+  heroMetricsSummary?: string;
 }) {
   return (
     <section className="bg-sage-400">
@@ -14,7 +16,10 @@ export default function CaseStudyHero({
         />
         <div className="flex-1">
           <h1 className="font-display text-h1 text-ink mb-4">{title}</h1>
-          <p className="text-body text-ink/80">{description}</p>
+          <p className="text-body text-ink/80 mb-6">{description}</p>
+          {heroMetricsSummary && (
+            <p className="text-small text-ink/60">{heroMetricsSummary}</p>
+          )}
         </div>
       </div>
     </section>
