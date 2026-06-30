@@ -1,22 +1,15 @@
 import type { Metadata } from "next";
-import { Fraunces, Work_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
-// Display serif — used for headlines, pull quotes. Has real editorial character.
-const fraunces = Fraunces({
+// Single confident sans family for both display and body — closer to the
+// SF Pro Display/Text pairing Apple uses, rather than mixing a serif in.
+const inter = Inter({
   subsets: ["latin"],
   variable: "--font-display",
-  weight: ["400", "500", "600"],
-  style: ["normal", "italic"],
-});
-
-// Body sans — used for everything else. Clean, readable, not the default Inter look.
-const workSans = Work_Sans({
-  subsets: ["latin"],
-  variable: "--font-body",
-  weight: ["400", "500", "600"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -31,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${fraunces.variable} ${workSans.variable}`}>
+    <html lang="en" className={`${inter.variable}`}>
       <body>
         <Nav />
         <main>{children}</main>
