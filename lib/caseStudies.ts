@@ -100,7 +100,7 @@ export const caseStudies: CaseStudyData[] = [
       },
       {
         id: "decision-3",
-        heading: "Key Decision 3: Reward Curiosity With “Sneak Peeks”",
+        heading: 'Key Decision 3: Reward Curiosity With "Sneak Peeks"',
         subLists: [
           {
             items: [
