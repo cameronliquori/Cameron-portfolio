@@ -36,6 +36,7 @@ export const caseStudies: CaseStudyData[] = [
               "We had just three months to design and ship a fully bespoke promotional experience from scratch. The event needed to feel iconic, celebratory, and highly differentiated from Robinhood’s typical incentive structures while still driving measurable business impact.",
               "At the same time, the experience had to support:",
               ],
+            },
             {
             asList: true,
             items: [
