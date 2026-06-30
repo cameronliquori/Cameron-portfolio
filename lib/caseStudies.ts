@@ -49,7 +49,7 @@ export const caseStudies: CaseStudyData[] = [
           {
             items: [
               "The biggest UX challenge emerged from that final constraint: users could “opt in” to claim a gift immediately after that day’s gift lineup was revealed, but fulfillment and “reveal” of a user’s specific gift required manual verification and could take 12–20 hours. This created a potentially disappointing gap between anticipation and reward.",
-              "A unique challenge I took on was turning that waiting period into something emotionally engaging, rather than frustrating.",
+              "A unique challenge I took on: turn the waiting period into something emotionally engaging, rather than frustrating.",
             ],
           },
         ],
@@ -61,7 +61,7 @@ export const caseStudies: CaseStudyData[] = [
           {
             items: [
               "Engineering established early that gift claims and gift reveals had to be separate states.",
-              "Rather than treating this delay as friction to explain away, I reframed it as a design opportunity. I developed a content strategy centered around anticipation: making the daily gift lineup reveal feel nearly as exciting as the eventual gift unwrap.",
+              "Rather than treating this delay as friction to explain away, I reframed it as a design opportunity. I developed a content strategy centered around anticipation: making the <strong>daily gift lineup reveal feel nearly as exciting as the eventual gift unwrap</strong>.",
               "Each day’s gift lineup reveal opened with content designed to create a sense of buildup and possibility—a “drumroll” moment that emphasized the excitement of the unknown while reinforcing a simple promise: if you’re here seeing the reveal, you’re guaranteed a gift in a few short hours.",
               "This shift transformed a backend limitation into a core emotional beat of the experience.",
               "The lineup reveals became major moments of excitement both in-product and on social, helping sustain momentum across all six days.",
