@@ -28,7 +28,7 @@ const placeholderDecisionSection = (id: string, heading: string) => ({
 });
 
 export const caseStudies: CaseStudyData[] = [
-   {
+     {
     slug: "hood-holidays",
     title: "HOOD Holidays 2025",
     subtitle: "6 days. $7M in prizes. 100+ screens. One content POV to take it from 0 to 1.",
@@ -39,50 +39,38 @@ export const caseStudies: CaseStudyData[] = [
       "A six-day, advent-calendar-style holiday promotion rewarding customers with gifts ranging from Rolex watches to a Porsche — built from concept to launch in three months.",
     overview: {
       need: [
-        "Robinhood needed a flagship 2025 holiday promotion that felt iconic and differentiated from typical incentive structures, while still driving measurable subscription and engagement growth.",
+        "HOOD Holidays was Robinhood's 2025 flagship holiday promotion: a six-day, advent calendar–style experience designed to reward customers with exclusive gifts ranging from Rolex watches and a Porsche to crypto rewards.",
       ],
       goal: [
-        "Reward customers across 6 days with exclusive gifts — including Rolex watches, a Porsche, and crypto rewards — with 4 days exclusive to Gold members and 2 open to all customers.",
+        "Each day, customers could opt in to receive one gift from that day's lineup, with four days exclusive to Robinhood Gold members and two available to all customers.",
       ],
       plan: [
-        "As Content Designer on a 3-person core team alongside Product Design and Product Management, own content strategy, interaction design decisions, and end-to-end content execution across 100+ screens, from initial concept through launch.",
+        "As the Content Designer on a three-person core team alongside Product Design and Product Management, I partnered in shaping the experience from initial concept through launch — owning content strategy, interaction design decisions, and end-to-end content execution across 100+ screens.",
       ],
     },
     challenge: {
       limitations: [
-        "Just three months to design and ship a fully bespoke promotional experience from scratch",
-        "Nearly one million participants engaging simultaneously during peak days",
-        "100+ unique product surfaces across six event days",
-        "Intense legal and compliance requirements spanning sweepstakes, subscription, IP, and crypto regulations",
-        "Operational constraints prevented gifts from being delivered immediately after claim — fulfillment required 12–20 hours of manual verification, creating a gap between anticipation and reward",
+        "This project combined creative ambition with unusually complex execution constraints. We had just three months to design and ship a fully bespoke promotional experience from scratch. The event needed to feel iconic, celebratory, and highly differentiated from Robinhood's typical incentive structures while still driving measurable business impact.",
+        "At the same time, the experience had to support nearly one million participants engaging simultaneously during peak days, across 100+ unique product surfaces spanning six event days.",
+        "It also required navigating intense legal and compliance requirements spanning sweepstakes, subscription, IP, and crypto regulations — alongside operational constraints that prevented gifts from being delivered immediately after claim.",
+        "The biggest UX challenge emerged from that final constraint: users could 'opt in' to claim a gift immediately after that day's gift lineup was revealed, but fulfillment and 'reveal' of a user's specific gift required manual verification and could take 12–20 hours. This created a potentially disappointing gap between anticipation and reward. A unique challenge I took on was turning that waiting period into something emotionally engaging, rather than frustrating.",
       ],
-      team: ["3-person core team: Content Design, Product Design, Product Management"],
-      timeline: ["3 months, concept to launch"],
+      team: [
+        "I worked as the Content Designer on a three-person core team, alongside Product Design and Product Management.",
+      ],
+      timeline: ["Three months, from initial concept through launch."],
     },
     decisionSections: [
       {
         id: "decision-1",
         heading: "Key Decision 1: Turn Waiting Into Anticipation",
-        subheading:
-          "Reframing a 12–20 hour fulfillment delay as a moment of anticipation rather than friction.",
         subLists: [
           {
-            heading: "The constraint",
+            heading: "",
             items: [
-              "Gift claims and gift reveals had to be separate states, creating a 12–20 hour gap between claiming and unwrapping a gift.",
-            ],
-          },
-          {
-            heading: "The approach",
-            items: [
-              "Developed a content strategy centered on anticipation — each day's gift lineup reveal opened with a 'drumroll' moment emphasizing the excitement of the unknown while reinforcing a guaranteed reward.",
-              "Reframed a backend limitation into a core emotional beat of the experience.",
-            ],
-          },
-          {
-            heading: "Result",
-            items: [
-              "Lineup reveals became major moments of excitement in-product and on social, sustaining momentum across all six days.",
+              "Engineering established early that gift claims and gift reveals had to be separate states. Rather than treating this delay as friction to explain away, I reframed it as a design opportunity. I developed a content strategy centered around anticipation: making the daily gift lineup reveal feel nearly as exciting as the eventual gift unwrap.",
+              "Each day's gift lineup reveal opened with content designed to create a sense of buildup and possibility — a 'drumroll' moment that emphasized the excitement of the unknown while reinforcing a simple promise: if you're here seeing the reveal, you're guaranteed a gift in a few short hours.",
+              "This shift transformed a backend limitation into a core emotional beat of the experience. The lineup reveals became major moments of excitement both in-product and on social, helping sustain momentum across all six days.",
             ],
           },
         ],
@@ -91,28 +79,13 @@ export const caseStudies: CaseStudyData[] = [
       {
         id: "decision-2",
         heading: "Key Decision 2: Build a Scalable Content Framework for Delight",
-        subheading:
-          "Establishing a consistent voice across 100+ screens and 40+ unique prizes.",
         subLists: [
           {
-            heading: "Guiding principles",
+            heading: "",
             items: [
-              "Inspire delight through playfulness and surprise",
-              "Create momentum through anticipation and reward",
-              "Keep value instantly understandable",
-            ],
-          },
-          {
-            heading: "Approach",
-            items: [
-              "Leaned into a more playful, emotionally expressive side of Robinhood's typically informational in-product voice.",
-              "Used AI as an ideation tool during early exploration — generating broad sets of options, then curating, rewriting, and refining to meet Robinhood's voice and quality standards.",
-            ],
-          },
-          {
-            heading: "Result",
-            items: [
-              "Scaled creative variation efficiently while maintaining a high editorial bar across dozens of prize reveal states.",
+              "This experience spanned more than 100 screens and 40+ unique prizes — consistency was critical. I established three guiding content principles early in development: inspire delight through playfulness and surprise, create momentum through anticipation and reward, and keep value instantly understandable.",
+              "Robinhood's in-product voice often leans informational in complex financial contexts. HOOD Holidays gave us room to lean into a more playful, emotionally expressive side of the brand without sacrificing clarity.",
+              "To scale this voice across dozens of prize reveal states, I used AI as an ideation tool during early exploration — generating broad sets of options, then curating, rewriting, and refining final content to ensure every surface met Robinhood's voice and quality standards. This allowed me to scale creative variation efficiently while maintaining a high editorial bar.",
             ],
           },
         ],
@@ -121,29 +94,14 @@ export const caseStudies: CaseStudyData[] = [
       {
         id: "decision-3",
         heading: 'Key Decision 3: Reward Curiosity With "Sneak Peeks"',
-        subheading:
-          "Pitching a system that rewarded exploration even when there wasn't a gift to unwrap.",
         subLists: [
           {
-            heading: "The idea",
+            heading: "",
             items: [
-              "Users who attempted to unwrap a gift early were met with playful messaging acknowledging they'd been caught peeking.",
-              "Referring a friend unlocked an early clue about the next day's prizes in the form of a riddle.",
-            ],
-          },
-          {
-            heading: "Goals served",
-            items: [
-              "Rewarded curiosity and exploration",
-              "Encouraged referrals",
-              "Increased repeat engagement",
-              "Created compelling upgrade moments for non-Gold users — sneak peeks revealed upcoming Gold-exclusive prizes",
-            ],
-          },
-          {
-            heading: "Result",
-            items: [
-              "Riddles became a major driver of community engagement, generating large discussion threads across X and Reddit as users collaboratively decoded clues.",
+              "One of my most impactful contributions was pitching a 'sneak peek' system. Above all, HOOD Holidays was meant to inspire delight. Rewarding exploration keeps that momentum going even when there isn't a gift to unwrap.",
+              "If users attempted to unwrap a gift early, they were met with playful messaging acknowledging that they had been caught peeking. Instead of ending the interaction there, we created an incentive loop: referring a friend unlocked an early clue about the next day's prizes in the form of a riddle.",
+              "This served multiple goals simultaneously: it rewarded curiosity and exploration, encouraged referrals, increased repeat engagement, and created compelling upgrade moments for non-Gold users. For non-Gold customers, sneak peeks also revealed prizes from future Gold-exclusive days, naturally linking desire with upgrade motivation.",
+              "The riddles became a major driver of community engagement, generating large discussion threads across X and Reddit as users collaboratively decoded clues and speculated about upcoming prizes.",
             ],
           },
         ],
@@ -152,19 +110,12 @@ export const caseStudies: CaseStudyData[] = [
       {
         id: "cross-functional",
         heading: "Cross-functional Leadership",
-        subheading: "Serving as a connective partner across Product, Design, and Legal/Compliance.",
         subLists: [
           {
-            heading: "Product & Design",
+            heading: "",
             items: [
-              "Worked closely with Product Design and Product Management during concept exploration, helping shape user journeys, information architecture, and wireframes presented to Robinhood's CEO.",
-            ],
-          },
-          {
-            heading: "Legal & Compliance",
-            items: [
-              "Led ongoing content review with 15+ Legal and Compliance stakeholders across multiple regulatory domains.",
-              "Created a daily decision-making forum that resolved ambiguity quickly without sacrificing product velocity or UX quality.",
+              "Beyond content execution, I served as a connective partner across multiple disciplines. I worked closely with Product Design and Product Management during concept exploration, helping shape user journeys, information architecture, and wireframes that we successfully presented to Robinhood's CEO.",
+              "I also led ongoing content review with 15+ Legal and Compliance stakeholders across multiple regulatory domains, creating a daily decision-making forum that allowed the team to resolve ambiguity quickly without sacrificing product velocity or UX quality. This structure helped us maintain clarity, compliance, and consistency across all in-product and external surfaces.",
             ],
           },
         ],
@@ -197,8 +148,9 @@ export const caseStudies: CaseStudyData[] = [
       ],
     },
     reflection:
-      "When you're building something from the ground up, the only limitation is your imagination — and what engineering can reasonably create from scratch in three months. The biggest constraint was the gap between gift claim and gift reveal. The content strategy successfully transformed that delay into anticipation, but the experience still asked users to internalize a less intuitive mental model than an immediate reward flow. If revisiting the experience, I'd explore ways to reduce or eliminate that operational gap so the emotional payoff feels even more seamless.",
+      "When you're building something from the ground up, the only limitation is your imagination… and what engineering can reasonably create from scratch in three months. The largest product constraint I felt was the gap between gift claim and gift reveal. While I believe the content strategy successfully transformed that delay into anticipation, the end-to-end experience still required users to internalize a less intuitive mental model than an immediate reward flow. If revisiting the experience, I would explore ways to reduce or eliminate this operational gap altogether so the emotional payoff feels even more seamless.",
   },
+
   {
     slug: "gold-card",
     title: "Gold Card Voice & Tone",
