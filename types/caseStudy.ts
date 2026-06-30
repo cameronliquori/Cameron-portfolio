@@ -2,25 +2,22 @@
 // The goal of this model is: Cameron edits data, not code, when adding real copy.
 
 export type Metric = {
-  value: string; // e.g. "920K+"
-  label: string; // e.g. "participants"
-  detail?: string; // e.g. "Highest-attended live event in RH history."
+  value: string;
+  label: string;
+  detail?: string;
 };
 
 export type SubList = {
-  heading: string; // e.g. "Early explorations", "Setting content guidelines"
+  heading: string;
   items: string[];
 };
 
-// A flexible content section used for "The Challenge", "Key Decision" blocks,
-// "Cross-functional leadership", etc. Structure (sublist labels) varies per project,
-// so subLists is just an ordered array rather than fixed fields.
 export type ContentSection = {
   id: string;
-  heading: string; // e.g. "Key Decision 1", "The Challenge"
-  subheading?: string; // optional one-line summary under the heading
+  heading: string;
+  subheading?: string;
   subLists?: SubList[];
-  images?: { id: string; caption?: string }[]; // placeholder images paired with this section
+  images?: { id: string; caption?: string }[];
 };
 
 export type ProjectCardData = {
@@ -29,11 +26,28 @@ export type ProjectCardData = {
   subtitle: string;
   company: string;
   tags: string[];
-  eyebrow: string; // e.g. "0 → 1 launch | Systems Design | Content Design"
+  eyebrow: string;
+};
+
+// Every field here is fully optional. There is no fallback text anywhere
+// in the components — if a heading/label is omitted, it simply doesn't
+// render (not replaced with default copy). Add only what you need per project.
+export type SectionHeadings = {
+  overviewHeading?: string;
+  needLabel?: string;
+  goalLabel?: string;
+  planLabel?: string;
+  challengeHeading?: string;
+  limitationsLabel?: string;
+  teamLabel?: string;
+  timelineLabel?: string;
+  outcomeHeading?: string;
+  reflectionHeading?: string;
 };
 
 export type CaseStudyData = ProjectCardData & {
-  heroDescription: string; // "Project description, key metrics at a glance"
+  heroDescription: string;
+  headings?: SectionHeadings;
   overview: {
     need: string[];
     goal: string[];
@@ -44,10 +58,11 @@ export type CaseStudyData = ProjectCardData & {
     team: string[];
     timeline: string[];
   };
-  decisionSections: ContentSection[]; // variable-length, variable-label sections
+  decisionSections: ContentSection[];
   outcome: {
     images: { id: string; caption?: string }[];
     metrics: Metric[];
   };
   reflection: string;
 };
+
