@@ -10,21 +10,20 @@ export default function DecisionSection({ section }: { section: ContentSection }
           <p className="text-body text-ink-muted mb-8">{section.subheading}</p>
         )}
 
-        {section.subLists?.map((list) => (
-          <div key={list.heading} className="mb-6">
-            <p className="text-small font-semibold text-ink mb-2">
-              {list.heading}
-            </p>
-            <ul className="space-y-1">
+        {section.subLists?.map((list, idx) => (
+          <div key={list.heading || idx} className="mb-8">
+            {list.heading && (
+              <p className="text-small font-semibold text-ink mb-3">
+                {list.heading}
+              </p>
+            )}
+            <div className="space-y-4">
               {list.items.map((item, i) => (
-                <li
-                  key={i}
-                  className="text-small text-ink-muted pl-4 relative before:content-['•'] before:absolute before:left-0"
-                >
+                <p key={i} className="text-body text-ink-muted">
                   {item}
-                </li>
+                </p>
               ))}
-            </ul>
+            </div>
           </div>
         ))}
       </div>
