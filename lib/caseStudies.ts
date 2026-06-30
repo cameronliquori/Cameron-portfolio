@@ -146,6 +146,38 @@ export const caseStudies: CaseStudyData[] = [
         ],
         images: [{ id: "hood-cross-functional-img-1" }, { id: "hood-cross-functional-img-2" }],
       },
+            {
+        id: "outcome",
+        heading: "Outcome",
+        images: [
+          { id: "hood-outcome-1" },
+          { id: "hood-outcome-2" },
+          { id: "hood-outcome-3" },
+          { id: "hood-outcome-4" },
+        ],
+        metrics: [
+          {
+            value: "920K+",
+            label: "unique participants across 6 days",
+            detail: "Highest-attended live event in Robinhood history",
+          },
+          {
+            value: "200K+",
+            label: "new Robinhood Gold subscriptions",
+            detail: "60K above finance target",
+          },
+          {
+            value: "7.84M",
+            label: "social impressions",
+            detail: "Content cited as a key driver of social media virality",
+          },
+          {
+            value: "496K",
+            label: "participants on Day 5",
+            detail: "Captured the attention of nearly half a million users at once",
+          },
+        ],
+      },
     ],
     reflection: {
       heading: "Reflection",
