@@ -1,6 +1,3 @@
-// Shared type definitions for case study content.
-// The goal of this model is: Cameron edits data, not code, when adding real copy.
-
 export type Metric = {
   value: string;
   label: string;
@@ -8,16 +5,21 @@ export type Metric = {
 };
 
 export type SubList = {
-  heading: string;
+  heading?: string; // omit for unlabeled flowing paragraphs
   items: string[];
 };
 
-export type ContentSection = {
+// One generic, flexible block used for every part of a case study's body —
+// Overview, Challenge, Key Decisions, Outcome, whatever a given project needs.
+// Order and shape vary case-by-case; nothing is hardcoded in the template.
+export type CaseStudySectionData = {
   id: string;
-  heading: string;
+  heading?: string;
   subheading?: string;
+  fullWidth?: boolean; // true = spans the full page width; false/omitted = constrained to a 760px reading column
   subLists?: SubList[];
-  images?: { id: string; caption?: string }[];
+  images?: { id: string; caption?: string }[]; // shown beside the text in a 2-col layout
+  metrics?: Metric[]; // optional stat cards rendered at the end of this section
 };
 
 export type ProjectCardData = {
@@ -29,40 +31,13 @@ export type ProjectCardData = {
   eyebrow: string;
 };
 
-// Every field here is fully optional. There is no fallback text anywhere
-// in the components — if a heading/label is omitted, it simply doesn't
-// render (not replaced with default copy). Add only what you need per project.
-export type SectionHeadings = {
-  overviewHeading?: string;
-  needLabel?: string;
-  goalLabel?: string;
-  planLabel?: string;
-  challengeHeading?: string;
-  limitationsLabel?: string;
-  teamLabel?: string;
-  timelineLabel?: string;
-  outcomeHeading?: string;
-  reflectionHeading?: string;
-};
-
 export type CaseStudyData = ProjectCardData & {
   heroDescription: string;
-  headings?: SectionHeadings;
-  overview: {
-    need: string[];
-    goal: string[];
-    plan: string[];
+  sections: CaseStudySectionData[];
+  reflection?: {
+    heading?: string;
+    text: string;
   };
-  challenge: {
-    limitations: string[];
-    team: string[];
-    timeline: string[];
-  };
-  decisionSections: ContentSection[];
-  outcome: {
-    images: { id: string; caption?: string }[];
-    metrics: Metric[];
-  };
-  reflection: string;
 };
+
 
