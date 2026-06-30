@@ -6,7 +6,11 @@ import Button from "@/components/Button";
 export default function CaseStudyTemplate({ caseStudy }: { caseStudy: CaseStudyData }) {
   return (
     <article>
-      <CaseStudyHero title={caseStudy.title} description={caseStudy.heroDescription} />
+      <CaseStudyHero
+  title={caseStudy.title}
+  description={caseStudy.heroDescription}
+  heroMetricsSummary={caseStudy.heroMetricsSummary}
+/>
 
       <div className="max-w-page mx-auto px-6 md:px-10">
         {caseStudy.sections.map((section) => (
