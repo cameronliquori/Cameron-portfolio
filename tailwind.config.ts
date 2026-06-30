@@ -28,14 +28,15 @@ const config: Config = {
         line: "#E2DDCF", // hairline borders / dividers
       },
       fontFamily: {
-        display: ["var(--font-display)", "Georgia", "serif"],
-        body: ["var(--font-body)", "Helvetica", "Arial", "sans-serif"],
+        display: ["var(--font-display)", "-apple-system", "Helvetica", "Arial", "sans-serif"],
+        body: ["var(--font-display)", "-apple-system", "Helvetica", "Arial", "sans-serif"],
       },
+
       fontSize: {
         // Type scale per design handoff
-        h1: ["4rem", { lineHeight: "1.05", letterSpacing: "-0.01em", fontWeight: "600" }], // 64px semibold
-        h2: ["2.25rem", { lineHeight: "1.15", letterSpacing: "-0.005em", fontWeight: "600" }], // 36px
-        h3: ["1.5rem", { lineHeight: "1.25", fontWeight: "600" }],
+        h1: ["4rem", { lineHeight: "1.05", letterSpacing: "-0.025em", fontWeight: "600" }],
+        h2: ["2.25rem", { lineHeight: "1.15", letterSpacing: "-0.02em", fontWeight: "600" }],
+        h3: ["1.5rem", { lineHeight: "1.25", letterSpacing: "-0.01em", fontWeight: "600" }],
         body: ["1.125rem", { lineHeight: "1.7" }], // 18px / 1.7
         small: ["0.9375rem", { lineHeight: "1.5" }],
         eyebrow: ["0.8125rem", { lineHeight: "1.4", letterSpacing: "0.08em" }],
