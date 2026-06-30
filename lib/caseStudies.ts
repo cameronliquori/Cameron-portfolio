@@ -24,28 +24,6 @@ export const caseStudies: CaseStudyData[] = [
             ],
           },
         ],
-        metrics: [
-          {
-            value: "920K",
-            label: "unique participants across 6 days",
-            detail: "Highest-attended live event in Robinhood history",
-          },
-          {
-            value: "200K",
-            label: "new Robinhood Gold subscriptions",
-            detail: "exceeded finance target by 60K",
-          },
-          {
-            value: "7.84M",
-            label: "social impressions",
-            detail: "Content cited as a key driver of social media virality",
-          },
-          {
-            value: "496K",
-            label: "participants on Day 5",
-            detail: "Captured the attention of nearly half a million users at once",
-        },
-        ],
       },
       {
         id: "challenge",
@@ -57,10 +35,18 @@ export const caseStudies: CaseStudyData[] = [
               "This project combined creative ambition with unusually complex execution constraints.",
               "We had just three months to design and ship a fully bespoke promotional experience from scratch. The event needed to feel iconic, celebratory, and highly differentiated from Robinhood’s typical incentive structures while still driving measurable business impact.",
               "At the same time, the experience had to support:",
+              ],
+            {
+            asList: true,
+            items: [
               "Nearly one million participants engaging simultaneously during peak days",
               "100+ unique product surfaces across six event days",
               "Intense legal and compliance requirements spanning sweepstakes, subscription, IP, and crypto regulations",
               "Operational constraints that prevented gifts from being delivered immediately after claim",
+            ],
+          },
+          {
+            items: [
               "The biggest UX challenge emerged from that final constraint: users could “opt in” to claim a gift immediately after that day’s gift lineup was revealed, but fulfillment and “reveal” of a user’s specific gift required manual verification and could take 12–20 hours. This created a potentially disappointing gap between anticipation and reward.",
               "A unique challenge I took on was turning that waiting period into something emotionally engaging, rather than frustrating.",
             ],
