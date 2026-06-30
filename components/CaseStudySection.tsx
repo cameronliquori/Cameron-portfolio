@@ -46,28 +46,63 @@ function SectionBody({ section }: { section: CaseStudySectionData }) {
 
 export default function CaseStudySection({ section }: { section: CaseStudySectionData }) {
   const hasImages = !!section.images?.length;
+  const hasBody = !!section.subLists?.length;
+  const hasMetrics = !!section.metrics?.length;
   const textWidthClass = section.fullWidth ? "w-full" : "max-w-reading";
 
-  return (
-    <div className="py-16 border-t border-line">
-      <div className={hasImages ? "grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16" : ""}>
-        <div className={textWidthClass}>
-          <SectionBody section={section} />
-        </div>
-        {hasImages && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 content-start">
+  // Layout A: body text + images → side-by-side (decision section style)
+  if (hasBody && hasImages) {
+    return (
+      <div className="py-16 border-t border-line">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
+          <div className={textWidthClass}>
+            <SectionBody section={section} />
+          </div>
+          <div className="grid grid-cols-2 gap-4 content-start">
             {section.images!.map((img) => (
-              <ArtifactBlock key={img.id} caption={img.caption} />
+              <ArtifactBlock key={img.id} caption={img.caption} aspect="aspect-[9/19]" />
             ))}
+          </div>
+        </div>
+        {hasMetrics && (
+          <div className="mt-10">
+            <MetricsGrid metrics={section.metrics!} />
           </div>
         )}
       </div>
-      {section.metrics && section.metrics.length > 0 && (
-        <div className={`mt-10 ${!hasImages ? textWidthClass : ""}`}>
-          <MetricsGrid metrics={section.metrics} />
+    );
+  }
+
+  // Layout B: images only, no body text → full-width image grid above metrics
+  if (hasImages && !hasBody) {
+    return (
+      <div className="py-16 border-t border-line">
+        {section.heading && (
+          <h2 className="font-display text-h2 mb-8">{section.heading}</h2>
+        )}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+          {section.images!.map((img) => (
+            <ArtifactBlock key={img.id} caption={img.caption} aspect="aspect-[9/19]" />
+          ))}
+        </div>
+        {hasMetrics && <MetricsGrid metrics={section.metrics!} />}
+      </div>
+    );
+  }
+
+  // Layout C: body text only, no images
+  return (
+    <div className="py-16 border-t border-line">
+      <div className={textWidthClass}>
+        <SectionBody section={section} />
+      </div>
+      {hasMetrics && (
+        <div className="mt-10">
+          <MetricsGrid metrics={section.metrics!} />
         </div>
       )}
     </div>
   );
 }
+
 
