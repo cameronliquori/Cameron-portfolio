@@ -5,7 +5,7 @@ export default function ProjectCard({ project }: { project: ProjectCardData }) {
   return (
     <Link
       href={`/work/${project.slug}`}
-      className="group flex gap-6 sm:gap-8 rounded-2xl border-2 border-ink p-6 sm:p-8 hover:bg-ink/[0.02] transition-colors duration-200 ease-smooth"
+      className="group flex gap-6 sm:gap-8 rounded-2xl border border-sage-600/40 p-6 sm:p-8 hover:border-sage-600 hover:bg-sage-50/50 transition-colors duration-200 ease-smooth"
     >
       <div
         className="placeholder-block w-[35%] shrink-0 aspect-[3/4]"
