@@ -6,7 +6,7 @@ function SectionBody({ section }: { section: CaseStudySectionData }) {
   return (
     <>
       {section.heading && (
-        <h2 className="font-display text-h2 mb-2">{section.heading}</h2>
+        <h2 className="font-display text-h2 mb-6">{section.heading}</h2>
       )}
       {section.subheading && (
         <p className="text-body text-ink-muted mb-8">{section.subheading}</p>
@@ -18,13 +18,26 @@ function SectionBody({ section }: { section: CaseStudySectionData }) {
               {list.heading}
             </p>
           )}
-          <div className="space-y-4">
-            {list.items.map((item, i) => (
-              <p key={i} className="text-body text-ink-muted">
-                {item}
-              </p>
-            ))}
-          </div>
+          {list.asList ? (
+            <ul className="space-y-2 pl-4">
+              {list.items.map((item, i) => (
+                <li
+                  key={i}
+                  className="text-body text-ink-muted relative before:content-['•'] before:absolute before:-left-4"
+                >
+                  {item}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <div className="space-y-4">
+              {list.items.map((item, i) => (
+                <p key={i} className="text-body text-ink-muted">
+                  {item}
+                </p>
+              ))}
+            </div>
+          )}
         </div>
       ))}
     </>
@@ -42,19 +55,19 @@ export default function CaseStudySection({ section }: { section: CaseStudySectio
           <SectionBody section={section} />
         </div>
         {hasImages && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 content-start max-w-artifact">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 content-start">
             {section.images!.map((img) => (
               <ArtifactBlock key={img.id} caption={img.caption} />
             ))}
           </div>
         )}
       </div>
-
       {section.metrics && section.metrics.length > 0 && (
-        <div className={hasImages ? "mt-10" : `mt-10 ${textWidthClass}`}>
+        <div className={`mt-10 ${!hasImages ? textWidthClass : ""}`}>
           <MetricsGrid metrics={section.metrics} />
         </div>
       )}
     </div>
   );
 }
+
