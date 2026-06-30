@@ -104,13 +104,22 @@ export const caseStudies: CaseStudyData[] = [
         subLists: [
           {
             items: [
-              "One of my most impactful contributions was pitching a “sneak peek” system. Above all, HOOD Holidays was meant to inspire delight. Rewarding exploration keeps that momentum going even when there isn’t a gift to unwrap.",
+              "One of my most impactful contributions was pitching and designing a “sneak peek” system. Above all, HOOD Holidays was meant to inspire delight. Rewarding exploration keeps that momentum going even when there isn’t a gift to unwrap.",
               "If users attempted to unwrap a gift early, they were met with playful messaging acknowledging that they had been caught peeking. Instead of ending the interaction there, we created an incentive loop: referring a friend unlocked an early clue about the next day’s prizes in the form of a riddle.",
               "This served multiple goals simultaneously:",
+              ],
+          },
+          {
+            asList: true,
+            items: [
               "Rewarded curiosity and exploration",
               "Encouraged referrals",
               "Increased repeat engagement",
-              "Created compelling upgrade moments for non-Gold users",
+              "Created compelling upgrade moments for non-Gold users".
+            ],
+          },
+          {
+            items: [
               "For non-Gold customers, sneak peeks also revealed prizes from future Gold-exclusive days, naturally linking desire with upgrade motivation.",
               "The riddles became a major driver of community engagement, generating large discussion threads across X and Reddit as users collaboratively decoded clues and speculated about upcoming prizes.",
             ],
