@@ -17,7 +17,7 @@ export default function ProjectCard({ project }: { project: ProjectCardData }) {
           {project.eyebrow}
         </p>
 
-        <h3 className="font-display text-h3 text-ink underline decoration-1 underline-offset-4 mb-1">
+        <h3 className="font-display text-h3 text-ink mb-1">
           {project.title}
         </h3>
         <p className="text-small font-semibold text-ink mb-3">
@@ -28,3 +28,4 @@ export default function ProjectCard({ project }: { project: ProjectCardData }) {
     </Link>
   );
 }
+
