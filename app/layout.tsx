@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
-// Single confident sans family for both display and body — closer to the
-// SF Pro Display/Text pairing Apple uses, rather than mixing a serif in.
-const inter = Inter({
+// Single warm, rounded geometric sans for both display and body —
+// less clinical than a neutral grotesque, still clean and modern.
+const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-display",
   weight: ["400", "500", "600", "700"],
@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable}`}>
+    <html lang="en" className={`${manrope.variable}`}>
       <body>
         <Nav />
         <main>{children}</main>
