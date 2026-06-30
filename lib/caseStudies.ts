@@ -83,7 +83,7 @@ export const caseStudies: CaseStudyData[] = [
         ],
         images: [{ id: "hood-decision-1-img-1" }, { id: "hood-decision-1-img-2" }],
       },
-      {
+            {
         id: "decision-2",
         heading: "Key Decision 2: Build a Scalable Content Framework for Delight",
         subLists: [
@@ -91,9 +91,20 @@ export const caseStudies: CaseStudyData[] = [
             items: [
               "This experience spanned more than 100 screens and 40+ unique prizes— consistency was critical.",
               "I established three guiding content principles early in development:",
-              { asList: true, items: ["Inspire delight through playfulness and surprise", "Create momentum through anticipation and reward", "Keep value instantly understandable"] }
-              "Robinhood’s in-product voice often leans informational in complex financial contexts. HOOD Holidays gave us room to lean into a more playful, emotionally expressive side of the brand without sacrificing clarity.",
-              "To scale this voice across dozens of prize reveal states, I used AI as an ideation tool during early exploration—generating broad sets of options, then curating, rewriting, and refining final content to ensure every surface met Robinhood’s voice and quality standards.",
+            ],
+          },
+          {
+            asList: true,
+            items: [
+              "Inspire delight through playfulness and surprise",
+              "Create momentum through anticipation and reward",
+              "Keep value instantly understandable",
+            ],
+          },
+          {
+            items: [
+              "Robinhood's in-product voice often leans informational in complex financial contexts. HOOD Holidays gave us room to lean into a more playful, emotionally expressive side of the brand without sacrificing clarity.",
+              "To scale this voice across dozens of prize reveal states, I used AI as an ideation tool during early exploration—generating broad sets of options, then curating, rewriting, and refining final content to ensure every surface met Robinhood's voice and quality standards.",
               "This allowed me to scale creative variation efficiently while maintaining a high editorial bar.",
             ],
           },
