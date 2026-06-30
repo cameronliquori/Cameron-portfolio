@@ -9,7 +9,8 @@ export const caseStudies: CaseStudyData[] = [
     tags: ["Systems Design", "Content Design"],
     eyebrow: "0 → 1 launch | Systems Design | Content Design",
     heroDescription:
-      "A six-day, advent calendar–style experience designed to reward customers with exclusive gifts ranging from Rolex watches and a Porsche to crypto rewards.",
+      "6 days. $7M in luxury prizes. 1 content POV to take it to 100.",
+    heroMetricsSummary: "920K participants · +200K new Gold subscribers · 7.84M social impressions",
     sections: [
       {
         id: "overview",
@@ -25,20 +26,25 @@ export const caseStudies: CaseStudyData[] = [
         ],
         metrics: [
           {
-            value: "920K+",
-            label: "participants across 6 days",
-            detail: "Highest-attended live event in Robinhood history (496K participants on Day 5).",
+            value: "920K",
+            label: "unique participants across 6 days",
+            detail: "Highest-attended live event in Robinhood history",
           },
           {
-            value: "200K+",
+            value: "200K",
             label: "new Robinhood Gold subscriptions",
-            detail: "60K above finance target.",
+            detail: "exceeded finance target by 60K",
           },
           {
             value: "7.84M",
             label: "social impressions",
-            detail: "Content cited as a key driver of social media virality.",
+            detail: "Content cited as a key driver of social media virality",
           },
+          {
+            value: "496K",
+            label: "participants on Day 5",
+            detail: "Captured the attention of nearly half a million users at once",
+        },
         ],
       },
       {
