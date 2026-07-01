@@ -186,6 +186,7 @@ export const caseStudies: CaseStudyData[] = [
       ],
     },
   },
+  {
     slug: "gold-card",
     title: "Gold Card Voice & Tone",
     subtitle: "Building a voice system—and a seat at the table.",
