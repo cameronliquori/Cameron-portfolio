@@ -108,6 +108,7 @@ export const caseStudies: CaseStudyData[] = [
               "One of my proudest contributions was pitching and designing a “sneak peek” system.",
               "Above all, HOOD Holidays was meant to inspire delight. Rewarding exploration keeps the story intact even when there isn’t a gift to unwrap.",
               "If users attempted to unwrap a gift early, they were met with playful messaging acknowledging that they had been caught peeking. Instead of ending the interaction there, I advocated for an incentive loop: referring a friend unlocked an early clue about the next day’s prizes in the form of a riddle.",
+              "For non-Gold customers, sneak peeks also revealed prizes from future Gold-exclusive days, <strong>naturally linking desire with upgrade motivation.</strong>",
               "This served multiple goals simultaneously:",
               ],
           },
@@ -122,7 +123,6 @@ export const caseStudies: CaseStudyData[] = [
           },
           {
             items: [
-              "For non-Gold customers, sneak peeks also revealed prizes from future Gold-exclusive days, <strong>naturally linking desire with upgrade motivation.</strong>",
               "The riddles became a <strong>major driver of community engagement,</strong> generating large discussion threads across X and Reddit as users collaboratively decoded clues and speculated about upcoming prizes.",
             ],
           },
