@@ -177,7 +177,7 @@ export const caseStudies: CaseStudyData[] = [
         ],
       },
     ],
-        reflection: {
+          reflection: {
       heading: "Reflection",
       text: [
         "When you're building something from the ground up, the only limitation is your imagination… and what engineering can reasonably create from scratch in three months.",
@@ -185,9 +185,6 @@ export const caseStudies: CaseStudyData[] = [
         "If revisiting the experience, I would explore ways to reduce or eliminate this operational gap altogether so the emotional payoff feels even more seamless.",
       ],
     },
-        ],
-  },
-  {
     slug: "gold-card",
     title: "Gold Card Voice & Tone",
     subtitle: "Building a voice system—and a seat at the table.",
