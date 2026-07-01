@@ -38,7 +38,6 @@ export type CaseStudyData = ProjectCardData & {
     text: string | string[];
   };
   };
-};
 
 
 
