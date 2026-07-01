@@ -40,10 +40,10 @@ export const caseStudies: CaseStudyData[] = [
             {
             asList: true,
             items: [
-              "Nearly one million participants engaging simultaneously during peak days",
-              "100+ unique product surfaces across six event days",
-              "Intense legal and compliance requirements spanning sweepstakes, subscription, IP, and crypto regulations",
-              "Operational constraints that prevented gifts from being delivered immediately after claim",
+              "Nearly <strong>one million participants</strong> engaging simultaneously during peak days",
+              "<strong>100+ unique product surfaces</strong> across six event days",
+              "<strong>Intense legal and compliance requirements</strong> spanning sweepstakes, subscription, IP, and crypto regulations",
+              "Operational constraints that <strong>prevented gifts from being delivered immediately</strong> after claim",
             ],
           },
           {
@@ -83,9 +83,9 @@ export const caseStudies: CaseStudyData[] = [
           {
             asList: true,
             items: [
-              "Inspire delight through playfulness and surprise",
-              "Create momentum through anticipation and reward",
-              "Keep value instantly understandable",
+              "Inspire <strong>delight</strong> through playfulness and surprise",
+              "Create <strong>momentum</strong> through anticipation and reward",
+              "Keep <strong>value</strong> instantly understandable",
             ],
           },
           {
@@ -104,7 +104,7 @@ export const caseStudies: CaseStudyData[] = [
         subLists: [
           {
             items: [
-              "One of my most impactful contributions was pitching and designing a “sneak peek” system. Above all, HOOD Holidays was meant to inspire delight. Rewarding exploration keeps that momentum going even when there isn’t a gift to unwrap.",
+              "One of my most impactful contributions was pitching and designing a “sneak peek” system. Above all, HOOD Holidays was meant to inspire delight. Rewarding exploration creates momentum even when there isn’t a gift to unwrap.",
               "If users attempted to unwrap a gift early, they were met with playful messaging acknowledging that they had been caught peeking. Instead of ending the interaction there, we created an incentive loop: referring a friend unlocked an early clue about the next day’s prizes in the form of a riddle.",
               "This served multiple goals simultaneously:",
               ],
@@ -121,7 +121,7 @@ export const caseStudies: CaseStudyData[] = [
           {
             items: [
               "For non-Gold customers, sneak peeks also revealed prizes from future Gold-exclusive days, naturally linking desire with upgrade motivation.",
-              "The riddles became a major driver of community engagement, generating large discussion threads across X and Reddit as users collaboratively decoded clues and speculated about upcoming prizes.",
+              "The riddles became a <strong>major driver of community engagement,</strong> generating large discussion threads across X and Reddit as users collaboratively decoded clues and speculated about upcoming prizes.",
             ],
           },
         ],
@@ -158,7 +158,7 @@ export const caseStudies: CaseStudyData[] = [
             detail: "Highest-attended live event in Robinhood history",
           },
           {
-            value: "200K+",
+            value: "200K",
             label: "new Robinhood Gold subscriptions",
             detail: "60K above finance target",
           },
@@ -170,7 +170,7 @@ export const caseStudies: CaseStudyData[] = [
           {
             value: "496K",
             label: "participants on Day 5",
-            detail: "Captured the attention of nearly half a million users at once",
+            detail: "Captured the attention of nearly half a million users simultaneously",
           },
         ],
       },
