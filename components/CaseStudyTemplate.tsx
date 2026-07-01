@@ -24,7 +24,15 @@ export default function CaseStudyTemplate({ caseStudy }: { caseStudy: CaseStudyD
             {caseStudy.reflection.heading && (
               <h2 className="font-display text-h2 mb-4">{caseStudy.reflection.heading}</h2>
             )}
-            <p className="text-body text-ink/80 max-w-reading">{caseStudy.reflection.text}</p>
+            {Array.isArray(caseStudy.reflection.text) ? (
+  <div className="space-y-4 max-w-reading">
+    {caseStudy.reflection.text.map((para, i) => (
+      <p key={i} className="text-body text-ink/80">{para}</p>
+    ))}
+  </div>
+) : (
+  <p className="text-body text-ink/80 max-w-reading">{caseStudy.reflection.text}</p>
+)}
           </div>
         </section>
       )}
