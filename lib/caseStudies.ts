@@ -40,31 +40,32 @@ export const caseStudies: CaseStudyData[] = [
             {
             asList: true,
             items: [
-              "Nearly <strong>one million participants</strong> engaging simultaneously during peak days",
+              "Nearly <strong>1M participants</strong> engaging simultaneously during peak days",
               "<strong>100+ unique product surfaces</strong> across six event days",
-              "<strong>Intense legal and compliance requirements</strong> spanning sweepstakes, subscription, IP, and crypto regulations",
-              "Operational constraints that <strong>prevented gifts from being delivered immediately</strong> after claim",
+              "Intense <strong>legal and compliance</strong> requirements spanning sweepstakes, subscription, IP, and crypto regulations",
+              "<strong>Operational constraints</strong> that prevented gifts from being delivered immediately after claim",
             ],
           },
           {
             items: [
-              "The biggest UX challenge emerged from that final constraint: users could “opt in” to claim a gift immediately after that day’s gift lineup was revealed, but fulfillment and “reveal” of a user’s specific gift required manual verification and could take 12–20 hours. This created a potentially disappointing gap between anticipation and reward.",
-              "A unique challenge I took on: turn the waiting period into something emotionally engaging, rather than frustrating.",
+              "The biggest UX challenge emerged from that final constraint: users could “opt in” to claim a gift immediately upon the gift lineup announcement, but fulfillment and “reveal” of a user’s specific gift required manual verification—a 12–20 hour process. This created a potentially disappointing gap between anticipation and reward.",
+              "A unique challenge I took on: make the waiting period feel <strong>emotionally engaging and intentional</strong>, not frustrating.",
             ],
           },
         ],
       },
       {
         id: "decision-1",
-        heading: "Key Decision 1: Turn Waiting Into Anticipation",
+        heading: "Key Decision 1: Create Anticipation",
         subLists: [
           {
             items: [
               "Engineering established early that gift claims and gift reveals had to be separate states.",
-              "Rather than treating this delay as friction to explain away, I reframed it as a design opportunity. I developed a content strategy centered around anticipation: making the <strong>daily gift lineup reveal feel nearly as exciting as the eventual gift unwrap</strong>.",
-              "Each day’s gift lineup reveal opened with content designed to create a sense of buildup and possibility—a “drumroll” moment that emphasized the excitement of the unknown while reinforcing a simple promise: if you’re here seeing the reveal, you’re guaranteed a gift in a few short hours.",
-              "This shift transformed a backend limitation into a core emotional beat of the experience.",
-              "The lineup reveals became major moments of excitement both in-product and on social, helping sustain momentum across all six days.",
+              "I reframed this built-in friction as a design opportunity. <strong>I developed a content strategy centered around anticipation:</strong> making the daily gift lineup reveal feel nearly as exciting as the eventual gift unwrap.",
+              "Each day’s gift lineup reveal opened with content designed to create a sense of buildup and possibility.
+              "This “drumroll” moment emphasized the excitement of the unknown while reinforcing a simple promise: if you’re here seeing the reveal, you’re guaranteed a gift in a few short hours.",
+              "The lineup reveals became major moments of excitement both in-product and on social.,
+              "My content transformed a backend limitation into a core emotional beat of the experience, sustaining momentum across all six days.",
             ],
           },
         ],
@@ -72,11 +73,11 @@ export const caseStudies: CaseStudyData[] = [
       },
             {
         id: "decision-2",
-        heading: "Key Decision 2: Build a Scalable Content Framework for Delight",
+        heading: "Key Decision 2: Build a Scalable Content Framework",
         subLists: [
           {
             items: [
-              "This experience spanned more than 100 screens and 40+ unique prizes— consistency was critical.",
+              "This experience spanned more than 100 screens and 40+ unique prizes—<strong>consistency was critical.</strong>",
               "I established three guiding content principles early in development:",
             ],
           },
@@ -90,9 +91,9 @@ export const caseStudies: CaseStudyData[] = [
           },
           {
             items: [
-              "Robinhood's in-product voice often leans informational in complex financial contexts. HOOD Holidays gave us room to lean into a more playful, emotionally expressive side of the brand without sacrificing clarity.",
-              "To scale this voice across dozens of prize reveal states, I used AI as an ideation tool during early exploration—generating broad sets of options, then curating, rewriting, and refining final content to ensure every surface met Robinhood's voice and quality standards.",
-              "This allowed me to scale creative variation efficiently while maintaining a high editorial bar.",
+              "Robinhood's in-product voice leans informational in complex financial contexts. HOOD Holidays allowed me to leverage a more playful, emotionally expressive side of the brand without sacrificing clarity.",
+              "To scale this voice across dozens of prize reveal states, I used <strong>AI as an ideation tool</strong> during early exploration—generating broad sets of options, then curating, rewriting, and refining final content to ensure every surface met Robinhood's voice and quality standards.",
+              "This allowed me to <strong>scale creative variation efficiently</strong> while maintaining a high editorial bar.",
             ],
           },
         ],
@@ -104,23 +105,24 @@ export const caseStudies: CaseStudyData[] = [
         subLists: [
           {
             items: [
-              "One of my most impactful contributions was pitching and designing a “sneak peek” system. Above all, HOOD Holidays was meant to inspire delight. Rewarding exploration creates momentum even when there isn’t a gift to unwrap.",
-              "If users attempted to unwrap a gift early, they were met with playful messaging acknowledging that they had been caught peeking. Instead of ending the interaction there, we created an incentive loop: referring a friend unlocked an early clue about the next day’s prizes in the form of a riddle.",
+              "One of my proudest contributions was pitching and designing a “sneak peek” system.",
+              "Above all, HOOD Holidays was meant to inspire delight. Rewarding exploration keeps the story intact even when there isn’t a gift to unwrap.",
+              "If users attempted to unwrap a gift early, they were met with playful messaging acknowledging that they had been caught peeking. Instead of ending the interaction there, I advocated for an incentive loop: referring a friend unlocked an early clue about the next day’s prizes in the form of a riddle.",
               "This served multiple goals simultaneously:",
               ],
           },
           {
             asList: true,
             items: [
-              "Rewarded curiosity and exploration",
-              "Encouraged referrals",
-              "Increased repeat engagement",
+              "Encouraged curiosity and exploration",
+              "Increased referrals",
+              "Boosted repeat engagement",
               "Created compelling upgrade moments for non-Gold users",
             ],
           },
           {
             items: [
-              "For non-Gold customers, sneak peeks also revealed prizes from future Gold-exclusive days, naturally linking desire with upgrade motivation.",
+              "For non-Gold customers, sneak peeks also revealed prizes from future Gold-exclusive days, <strong>naturally linking desire with upgrade motivation.</strong>",
               "The riddles became a <strong>major driver of community engagement,</strong> generating large discussion threads across X and Reddit as users collaboratively decoded clues and speculated about upcoming prizes.",
             ],
           },
@@ -135,7 +137,7 @@ export const caseStudies: CaseStudyData[] = [
             items: [
               "Beyond content execution, I served as a connective partner across multiple disciplines.",
               "I worked closely with Product Design and Product Management during concept exploration, helping shape user journeys, information architecture, and wireframes that we successfully presented to Robinhood’s CEO.",
-              "I also led ongoing content review with 15+ Legal and Compliance stakeholders across multiple regulatory domains, creating a daily decision-making forum that allowed the team to resolve ambiguity quickly without sacrificing product velocity or UX quality.",
+              "I also led ongoing content review with 15+ Legal and Compliance stakeholders across multiple regulatory domains, creating a daily decision-making forum that allowed the team to <strong>resolve ambiguity quickly</strong> without sacrificing product velocity or UX quality.",
               "This structure helped us maintain clarity, compliance, and consistency across all in-product and external surfaces.",
             ],
           },
