@@ -64,7 +64,7 @@ export const caseStudies: CaseStudyData[] = [
               "I reframed this built-in friction as a design opportunity. <strong>I developed a content strategy centered around anticipation:</strong> making the daily gift lineup reveal feel nearly as exciting as the eventual gift unwrap.",
               "Each day’s gift lineup reveal opened with content designed to create a sense of buildup and possibility.",
               "This “drumroll” moment emphasized the excitement of the unknown while reinforcing a simple promise: if you’re here seeing the reveal, you’re guaranteed a gift in a few short hours.",
-              "The lineup reveals became major moments of excitement both in-product and on social.,
+              "The lineup reveals became major moments of excitement both in-product and on social.",
               "My content transformed a backend limitation into a core emotional beat of the experience, sustaining momentum across all six days.",
             ],
           },
