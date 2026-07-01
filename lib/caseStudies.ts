@@ -177,15 +177,13 @@ export const caseStudies: CaseStudyData[] = [
         ],
       },
     ],
-    reflection: {
+        reflection: {
       heading: "Reflection",
-      subLists: [
-          {
-            items: [
-              "When you’re building something from the ground up, the only limitation is your imagination… and what engineering can reasonably create from scratch in three months.",
-              "The largest product constraint I felt was the gap between gift claim and gift reveal. While I believe the content strategy successfully transformed that delay into anticipation, the end-to-end experience still required users to internalize a less intuitive mental model than an immediate reward flow.",
-              "If revisiting the experience, I would explore ways to reduce or eliminate this operational gap altogether so the emotional payoff feels even more seamless.",
-              ],
+      text: [
+        "When you're building something from the ground up, the only limitation is your imagination… and what engineering can reasonably create from scratch in three months.",
+        "The largest product constraint I felt was the gap between gift claim and gift reveal. While I believe the content strategy successfully transformed that delay into anticipation, the end-to-end experience still required users to internalize a less intuitive mental model than an immediate reward flow.",
+        "If revisiting the experience, I would explore ways to reduce or eliminate this operational gap altogether so the emotional payoff feels even more seamless.",
+      ],
     },
         ],
   },
