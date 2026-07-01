@@ -33,9 +33,10 @@ export type CaseStudyData = ProjectCardData & {
   heroDescription: string;
   heroMetricsSummary?: string;
   sections: CaseStudySectionData[];
-  reflection?: {
+    reflection?: {
     heading?: string;
-    text: string;
+    text: string | string[];
+  };
   };
 };
 
