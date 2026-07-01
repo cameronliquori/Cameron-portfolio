@@ -185,6 +185,7 @@ export const caseStudies: CaseStudyData[] = [
         "If revisiting the experience, I would explore ways to reduce or eliminate this operational gap altogether so the emotional payoff feels even more seamless.",
       ],
     },
+  },
     slug: "gold-card",
     title: "Gold Card Voice & Tone",
     subtitle: "Building a voice system—and a seat at the table.",
