@@ -28,7 +28,7 @@ export default function Hero() {
       </div>
 
       <img
-        src="/homepage-vector.svg"
+        src="/Homepage-vector.svg"
         alt=""
         aria-hidden="true"
         className="w-full mt-10"
