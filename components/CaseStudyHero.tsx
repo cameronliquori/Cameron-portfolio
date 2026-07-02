@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function CaseStudyHero({
   title,
   description,
@@ -13,11 +15,14 @@ export default function CaseStudyHero({
     <section className="bg-sage-400">
       <div className="max-w-page mx-auto px-6 md:px-10 py-16 md:py-24 flex flex-col md:flex-row gap-10 md:gap-16 items-stretch">
         {heroImage ? (
-          <img
-            src={heroImage}
-            alt={title}
-            className="w-full md:w-[43%] aspect-[4/3] object-cover rounded shrink-0"
-          />
+          <div className="w-full md:w-[43%] aspect-[4/3] relative shrink-0">
+            <Image
+              src={heroImage}
+              alt={title}
+              fill
+              className="object-cover rounded"
+            />
+          </div>
         ) : (
           <div
             className="placeholder-block w-full md:w-[43%] aspect-[4/3] shrink-0"
