@@ -69,7 +69,10 @@ export const caseStudies: CaseStudyData[] = [
             ],
           },
         ],
-        images: [{ id: "hood-decision-1-img-1" }, { id: "hood-decision-1-img-2" }],
+        images: [
+  { id: "hood-decision-1-img-1", src: "/Hood-holidays-lineupgif.GIF" },
+  { id: "hood-decision-1-img-2", src: "/Hood-holidays-lineup-image.PNG" },
+],
       },
             {
         id: "decision-2",
