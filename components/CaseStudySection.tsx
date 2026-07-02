@@ -79,13 +79,16 @@ export default function CaseStudySection({ section }: { section: CaseStudySectio
         )}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
           {section.images!.map((img) => (
-            <div key={img.id} className="max-w-[200px] mx-auto">
-              <img
-                src={img.src || ""}
-                alt={img.caption || ""}
-                className="w-full h-auto rounded"
-              />
-            </div>
+            <figure key={img.id} className="max-w-[200px] mx-auto">
+  <img
+    src={img.src || ""}
+    alt={img.caption || ""}
+    className="w-full h-auto rounded"
+  />
+  {img.caption && (
+    <figcaption className="text-small text-ink-muted mt-2">{img.caption}</figcaption>
+  )}
+</figure>
           ))}
         </div>
         {hasMetrics && <MetricsGrid metrics={section.metrics!} />}
