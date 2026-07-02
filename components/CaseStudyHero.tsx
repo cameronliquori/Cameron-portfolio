@@ -16,11 +16,11 @@ export default function CaseStudyHero({
           <img
             src={heroImage}
             alt={title}
-            className="w-full md:w-[35%] aspect-[4/3] object-cover rounded shrink-0"
+            className="w-full md:w-[43%] aspect-[4/3] object-cover rounded shrink-0"
           />
         ) : (
           <div
-            className="placeholder-block w-full md:w-[35%] aspect-[4/3] shrink-0"
+            className="placeholder-block w-full md:w-[43%] aspect-[4/3] shrink-0"
             aria-hidden="true"
           />
         )}
