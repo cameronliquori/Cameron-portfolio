@@ -106,14 +106,19 @@ export const caseStudies: CaseStudyData[] = [
         id: "decision-3",
         heading: 'Key Decision 3: Reward Curiosity With "Sneak Peeks"',
         subLists: [
+                {
+        id: "decision-3",
+        heading: 'Key Decision 3: Reward Curiosity With "Sneak Peeks"',
+        fullWidth: true,
+        subLists: [
           {
             items: [
-              "One of my proudest contributions was pitching and designing a “sneak peek” system.",
-              "Above all, HOOD Holidays was meant to inspire delight. Rewarding exploration keeps the story intact even when there isn’t a gift to unwrap.",
-              "If users attempted to unwrap a gift early, they were met with playful messaging acknowledging that they had been caught peeking. Instead of ending the interaction there, I advocated for an incentive loop: referring a friend unlocked an early clue about the next day’s prizes in the form of a riddle.",
+              'One of my proudest contributions was pitching and designing a "sneak peek" system.',
+              "Above all, HOOD Holidays was meant to inspire delight. Rewarding exploration keeps the story intact even when there isn't a gift to unwrap.",
+              "If users attempted to unwrap a gift early, they were met with playful messaging acknowledging that they had been caught peeking. Instead of ending the interaction there, I advocated for an incentive loop: referring a friend unlocked an early clue about the next day's prizes in the form of a riddle.",
               "These riddles could hint at prizes gated behind Gold members-only days, <strong>naturally linking desire with upgrade motivation</strong> for non-Gold users.",
               "This served multiple goals simultaneously:",
-              ],
+            ],
           },
           {
             asList: true,
@@ -130,7 +135,15 @@ export const caseStudies: CaseStudyData[] = [
             ],
           },
         ],
-        images: [{ id: "hood-decision-3-img-1" }, { id: "hood-decision-3-img-2" }],
+      },
+      {
+        id: "decision-3-images",
+        images: [
+          { id: "hood-decision-3-img-1", src: "/Hood-holidays-sneakpeek-1.PNG" },
+          { id: "hood-decision-3-img-2", src: "/Hood-holidays-sneakpeek-2.PNG" },
+          { id: "hood-decision-3-img-3", src: "/Hood-holidays-sneakpeek-3.PNG" },
+          { id: "hood-decision-3-img-4", src: "/Hood-holidays-sneakpeek-4.PNG" },
+        ],
       },
       {
         id: "cross-functional",
