@@ -16,21 +16,21 @@ export default function CaseStudyHero({
           <img
             src={heroImage}
             alt={title}
-            className="w-full md:w-[50%] aspect-[4/3] object-cover rounded shrink-0"
+            className="w-full md:w-[35%] aspect-[4/3] object-cover rounded shrink-0"
           />
         ) : (
           <div
-            className="placeholder-block w-full md:w-[50%] aspect-[4/3] shrink-0"
+            className="placeholder-block w-full md:w-[35%] aspect-[4/3] shrink-0"
             aria-hidden="true"
           />
         )}
-        <div className="flex-1 flex flex-col items-end text-right">
-          <div>
+        <div className="flex-1 flex flex-col items-end text-right justify-between">
+          <div className="flex-1 flex flex-col items-end justify-center">
             <h1 className="font-display text-h1 text-ink mb-4 whitespace-nowrap">{title}</h1>
             <p className="text-body text-ink/80">{description}</p>
           </div>
           {heroMetricsSummary && (
-            <p className="text-small text-ink/60 mt-auto">{heroMetricsSummary}</p>
+            <p className="text-small text-ink/60">{heroMetricsSummary}</p>
           )}
         </div>
       </div>
