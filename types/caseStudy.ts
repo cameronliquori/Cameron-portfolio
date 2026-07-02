@@ -16,7 +16,7 @@ export type CaseStudySectionData = {
   subheading?: string;
   fullWidth?: boolean;
   subLists?: SubList[];
-  images?: { id: string; caption?: string }[];
+  images?: { id: string; src?: string; caption?: string }[];
   metrics?: Metric[];
 };
 
@@ -33,11 +33,11 @@ export type CaseStudyData = ProjectCardData & {
   heroDescription: string;
   heroMetricsSummary?: string;
   sections: CaseStudySectionData[];
-    reflection?: {
+  reflection?: {
     heading?: string;
     text: string | string[];
   };
-  };
+};
 
 
 
