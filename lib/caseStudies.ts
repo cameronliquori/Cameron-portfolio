@@ -154,7 +154,9 @@ export const caseStudies: CaseStudyData[] = [
             ],
           },
         ],
-        images: [{ id: "hood-cross-functional-img-1" }, { id: "hood-cross-functional-img-2" }],
+        images: [
+  { id: "hood-cross-functional-img-1", src: "/Hood-holidays-wireframes.jpeg", aspect: "aspect-[16/9]" },
+],
       },
             {
         id: "outcome",
