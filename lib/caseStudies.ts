@@ -135,7 +135,7 @@ export const caseStudies: CaseStudyData[] = [
       {
         id: "decision-3-images",
         images: [
-          { id: "hood-decision-3-img-1", src: "/Hood-holidays-sneakpeek-1.PNG" },
+          { id: "hood-decision-3-img-1", src: "/hood-holidays-sneakpeek-gif1.GIF" },
           { id: "hood-decision-3-img-2", src: "/Hood-holidays-sneakpeek-2.PNG" },
           { id: "hood-decision-3-img-3", src: "/Hood-holidays-sneakpeek-3.PNG" },
           { id: "hood-decision-3-img-4", src: "/Hood-holidays-sneakpeek-4.PNG" },
