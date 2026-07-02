@@ -19,8 +19,8 @@ export const caseStudies: CaseStudyData[] = [
         subLists: [
           {
             items: [
-              "HOOD Holidays was Robinhood’s 2025 flagship holiday promotion: a six-day, advent calendar–style experience designed to reward customers with exclusive gifts ranging from Rolex watches and a Porsche to crypto rewards. Each day, customers could opt in to receive one gift from that day’s lineup, with four days exclusive to Robinhood Gold members and two available to all customers.",
-              "As the Content Designer on a three-person core team alongside Product Design and Product Management, I partnered in shaping the experience from initial concept through launch—owning content strategy, interaction design decisions, and end-to-end content execution across 100+ screens.",
+              "HOOD Holidays was Robinhood’s 2025 flagship holiday promotion: a six-day, advent calendar–style experience designed to <strong>reward customers with exclusive gifts</strong> ranging from Rolex watches and a Porsche to crypto rewards. Each day, customers could opt in to receive one gift from that day’s lineup, with four days exclusive to Robinhood Gold members and two available to all customers.",
+              "As the <strong>lead Content Designer</strong> on a three-person core team alongside Product Design and Product Management, I partnered in shaping the experience from initial concept through launch—<strong>owning content strategy, interaction design decisions, and end-to-end content execution</strong> across 100+ screens.",
             ],
           },
         ],
@@ -32,24 +32,23 @@ export const caseStudies: CaseStudyData[] = [
         subLists: [
           {
             items: [
-              "This project combined creative ambition with unusually complex execution constraints.",
-              "We had just three months to design and ship a fully bespoke promotional experience from scratch. The event needed to feel iconic, celebratory, and highly differentiated from Robinhood’s typical incentive structures while still driving measurable business impact.",
+              "We had just three months to design and ship a fully bespoke promotional experience from scratch. The event needed to feel <strong>iconic</strong>, <strong>celebratory</strong>, and <strong>highly differentiated</strong> from Robinhood’s typical incentive structures while still driving measurable business impact.",
               "At the same time, the experience had to support:",
               ],
             },
             {
             asList: true,
             items: [
-              "Nearly <strong>1M participants</strong> engaging simultaneously during peak days",
-              "<strong>100+ unique product surfaces</strong> across six event days",
-              "Intense <strong>legal and compliance</strong> requirements spanning sweepstakes, subscription, IP, and crypto regulations",
-              "<strong>Operational constraints</strong> that prevented gifts from being delivered immediately after claim",
+              "Nearly 1M participants engaging simultaneously during peak days",
+              "100+ unique product surfaces across six event days",
+              "Intense legal and compliance requirements spanning sweepstakes, subscription, IP, and crypto regulations",
+              "Operational constraints that prevented gifts from being delivered immediately after claim",
             ],
           },
           {
             items: [
               "The biggest UX challenge emerged from that final constraint: users could “opt in” to claim a gift immediately upon the gift lineup announcement, but fulfillment and “reveal” of a user’s specific gift required manual verification—a 12–20 hour process. This created a potentially disappointing gap between anticipation and reward.",
-              "A unique challenge I took on: make the waiting period feel <strong>emotionally engaging and intentional</strong>, not frustrating.",
+              "Key goal: make the waiting period feel <strong>emotionally engaging and intentional</strong>, not frustrating.",
             ],
           },
         ],
@@ -70,7 +69,7 @@ export const caseStudies: CaseStudyData[] = [
           },
         ],
         images: [
-  { id: "hood-decision-1-img-1", src: "/Hood-holidays-lineupgif.GIF" },
+  { id: "hood-decision-1-img-1", src: "/Hood-holidays-lineupgif.GIF", caption: "Day 3's gift lineup reveal" },
   { id: "hood-decision-1-img-2", src: "/Hood-holidays-lineup-image.PNG" },
 ],
       },
@@ -111,8 +110,8 @@ export const caseStudies: CaseStudyData[] = [
             items: [
               'One of my proudest contributions was pitching and designing a "sneak peek" system.',
               "Above all, HOOD Holidays was meant to inspire delight. Rewarding exploration keeps the story intact even when there isn't a gift to unwrap.",
-              "If users attempted to unwrap a gift early, they were met with playful messaging acknowledging that they had been caught peeking. Instead of ending the interaction there, I advocated for an incentive loop: referring a friend unlocked an early clue about the next day's prizes in the form of a riddle.",
-              "These riddles could hint at prizes gated behind Gold members-only days, <strong>naturally linking desire with upgrade motivation</strong> for non-Gold users.",
+              "If users attempted to unwrap a gift early, they were met with playful messaging acknowledging that they had been caught peeking. Instead of ending the interaction there, <strong>I advocated for an incentive loop:</strong> referring a friend unlocked an early clue about the next day's prizes in the form of a riddle.",
+              "These riddles could hint at prizes gated behind Gold members-only days, naturally linking desire with upgrade motivation for non-Gold users.",
               "This served multiple goals simultaneously:",
             ],
           },
@@ -135,10 +134,10 @@ export const caseStudies: CaseStudyData[] = [
       {
         id: "decision-3-images",
         images: [
-          { id: "hood-decision-3-img-1", src: "/Hood-holidays-sneakpeek-1.PNG", caption: "Peeled-down corner to indicate interaction" },
-          { id: "hood-decision-3-img-2", src: "/Hood-holidays-sneakpeek-2.PNG", caption: "Moving users from exploration to engagement"},
-          { id: "hood-decision-3-img-3", src: "/Hood-holidays-sneakpeek-3.PNG", caption: "Sharing with a friend" },
-          { id: "hood-decision-3-img-4", src: "/Hood-holidays-sneakpeek-4.PNG", caption: "What could it be? Join Gold to find out!" },
+          { id: "hood-decision-3-img-1", src: "/Hood-holidays-sneakpeek-1.PNG" },
+          { id: "hood-decision-3-img-2", src: "/Hood-holidays-sneakpeek-2.PNG" },
+          { id: "hood-decision-3-img-3", src: "/Hood-holidays-sneakpeek-3.PNG" },
+          { id: "hood-decision-3-img-4", src: "/Hood-holidays-sneakpeek-4.PNG" },
         ],
       },
       {
@@ -155,7 +154,7 @@ export const caseStudies: CaseStudyData[] = [
           },
         ],
         images: [
-  { id: "hood-cross-functional-img-1", src: "/Hood-holidays-wireframe.jpg", aspect: "aspect-[16/9]" },
+  { id: "hood-cross-functional-img-1", src: "/Hood-holidays-wireframe.jpg", aspect: "aspect-[16/9]", caption: "Early concept exploration that became the promo framework, presented to Robinhood CEO" },
 ],
       },
             {
