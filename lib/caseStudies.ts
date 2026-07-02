@@ -102,11 +102,7 @@ export const caseStudies: CaseStudyData[] = [
         ],
         images: [{ id: "hood-decision-2-img-1" }, { id: "hood-decision-2-img-2" }],
       },
-            {
-        id: "decision-3",
-        heading: 'Key Decision 3: Reward Curiosity With "Sneak Peeks"',
-        subLists: [
-                {
+           {
         id: "decision-3",
         heading: 'Key Decision 3: Reward Curiosity With "Sneak Peeks"',
         fullWidth: true,
