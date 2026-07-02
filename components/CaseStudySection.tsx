@@ -78,16 +78,16 @@ export default function CaseStudySection({ section }: { section: CaseStudySectio
           <h2 className="font-display text-h2 mb-8">{section.heading}</h2>
         )}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
-  {section.images!.map((img) => (
-    <div key={img.id} className="mx-auto">
-  <img
-    src={img.src || ""}
-    alt={img.caption || ""}
-    className="w-full h-auto rounded"
-  />
-</div>
-  ))}
-</div>
+          {section.images!.map((img) => (
+            <div key={img.id} className="max-w-[200px] mx-auto">
+              <img
+                src={img.src || ""}
+                alt={img.caption || ""}
+                className="w-full h-auto rounded"
+              />
+            </div>
+          ))}
+        </div>
         {hasMetrics && <MetricsGrid metrics={section.metrics!} />}
       </div>
     );
@@ -107,6 +107,7 @@ export default function CaseStudySection({ section }: { section: CaseStudySectio
     </div>
   );
 }
+
 
 
 
