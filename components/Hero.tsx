@@ -2,7 +2,7 @@ import Button from "@/components/Button";
 
 export default function Hero() {
   return (
-    <section className="max-w-page mx-auto px-6 md:px-10 pt-16 md:pt-24 pb-16">
+    <section className="max-w-page mx-auto px-6 md:px-10 pt-16 md:pt-24 pb-0">
       <div className="flex flex-col md:flex-row md:items-start gap-10 md:gap-16">
         <div className="flex-1 max-w-reading">
           <h1 className="font-display text-h1 text-ink mb-6">
@@ -26,6 +26,14 @@ export default function Hero() {
           Illustration
         </div>
       </div>
+
+      <img
+        src="/homepage-vector.svg"
+        alt=""
+        aria-hidden="true"
+        className="w-full mt-10"
+      />
     </section>
   );
 }
+
