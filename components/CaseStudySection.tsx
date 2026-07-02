@@ -55,11 +55,11 @@ export default function CaseStudySection({ section }: { section: CaseStudySectio
           <div className={textWidthClass}>
             <SectionBody section={section} />
           </div>
-          <div className="grid grid-cols-2 gap-4 content-start">
-            {section.images!.map((img) => (
-              <ArtifactBlock key={img.id} src={img.src} caption={img.caption} aspect={img.aspect ?? "aspect-[9/19]"} />
-            ))}
-          </div>
+          <div className={section.images!.length === 1 ? "flex flex-col" : "grid grid-cols-2 gap-4 content-start"}>
+  {section.images!.map((img) => (
+    <ArtifactBlock key={img.id} src={img.src} caption={img.caption} aspect={img.aspect ?? "aspect-[9/19]"} />
+  ))}
+</div>
         </div>
         {hasMetrics && (
           <div className="mt-10">
