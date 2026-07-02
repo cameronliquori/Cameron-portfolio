@@ -147,8 +147,8 @@ export const caseStudies: CaseStudyData[] = [
           {
             items: [
               "Beyond content execution, I served as a connective partner across multiple disciplines.",
-              "I worked closely with Product Design and Product Management during concept exploration, helping shape user journeys, information architecture, and wireframes that we successfully presented to Robinhood’s CEO.",
-              "I also led ongoing content review with 15+ Legal and Compliance stakeholders across multiple regulatory domains, creating a daily decision-making forum that allowed the team to <strong>resolve ambiguity quickly</strong> without sacrificing product velocity or UX quality.",
+              "I worked closely with Product Design and Product Management during concept exploration, helping shape <strong>user journeys, information architecture, and wireframes</strong> that we successfully presented to Robinhood’s CEO.",
+              "I also <strong>led ongoing content review with 15+ Legal and Compliance stakeholders</strong> across multiple regulatory domains, creating a daily decision-making forum that allowed the team to resolve ambiguity quickly without sacrificing product velocity or UX quality.",
               "This structure helped us maintain clarity, compliance, and consistency across all in-product and external surfaces.",
             ],
           },
