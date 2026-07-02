@@ -151,11 +151,11 @@ export const caseStudies: CaseStudyData[] = [
         id: "outcome",
         heading: "Outcome",
         images: [
-          { id: "hood-outcome-1" },
-          { id: "hood-outcome-2" },
-          { id: "hood-outcome-3" },
-          { id: "hood-outcome-4" },
-        ],
+  { id: "hood-outcome-1", src: "/Hood-holidays-outcome-2.PNG" },
+  { id: "hood-outcome-2", src: "/Hood-holidays-outcome-3.jpg" },
+  { id: "hood-outcome-3", src: "/Hood-holidays-outcome-4.PNG" },
+  { id: "hood-outcome-4", src: "/Hood-holidays-outcome-5.JPEG" },
+],
         metrics: [
           {
             value: "920K+",
