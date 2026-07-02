@@ -2,8 +2,8 @@ import Button from "@/components/Button";
 
 export default function Hero() {
   return (
-    <section className="max-w-page mx-auto px-6 md:px-10 pt-16 md:pt-24 pb-0">
-      <div className="flex flex-col md:flex-row md:items-start gap-10 md:gap-16">
+    <section className="max-w-page mx-auto px-6 md:px-10 pt-16 md:pt-24 pb-0 relative">
+      <div className="flex flex-col md:flex-row md:items-start gap-10 md:gap-16 relative z-10">
         <div className="flex-1 max-w-reading">
           <h1 className="font-display text-h1 text-ink mb-6">
             Hi! I&apos;m Cameron
@@ -28,12 +28,14 @@ export default function Hero() {
       </div>
 
       <img
-        src="/Homepage-vector.svg"
+        src="/homepage-vector.svg"
         alt=""
         aria-hidden="true"
-        className="w-full mt-10"
+        className="absolute bottom-0 left-0 w-full pointer-events-none"
       />
+
+      {/* Spacer so the section has enough height for the SVG to show */}
+      <div className="h-48 md:h-32" />
     </section>
   );
 }
-
