@@ -105,7 +105,6 @@ export const caseStudies: CaseStudyData[] = [
             {
         id: "decision-3",
         heading: 'Key Decision 3: Reward Curiosity With "Sneak Peeks"',
-        fullWidth: true,
         subLists: [
           {
             items: [
@@ -115,15 +114,23 @@ export const caseStudies: CaseStudyData[] = [
               "These riddles could hint at prizes gated behind Gold members-only days, <strong>naturally linking desire with upgrade motivation</strong> for non-Gold users.",
               "This served multiple goals simultaneously:",
               ],
-      },
-      {
-        id: "decision-3-images",
-        images: [
-          { id: "hood-decision-3-img-1", src: "/Hood-holidays-sneakpeek-1.PNG" },
-          { id: "hood-decision-3-img-2", src: "/Hood-holidays-sneakpeek-2.PNG" },
-          { id: "hood-decision-3-img-3", src: "/Hood-holidays-sneakpeek-3.PNG" },
-          { id: "hood-decision-3-img-4", src: "/Hood-holidays-sneakpeek-4.PNG" },
+          },
+          {
+            asList: true,
+            items: [
+              "Encouraged curiosity and exploration",
+              "Increased referrals",
+              "Boosted repeat engagement",
+              "Created compelling upgrade moments for non-Gold users",
+            ],
+          },
+          {
+            items: [
+              "The riddles became a <strong>major driver of community engagement,</strong> generating large discussion threads across X and Reddit as users collaboratively decoded clues and speculated about upcoming prizes.",
+            ],
+          },
         ],
+        images: [{ id: "hood-decision-3-img-1" }, { id: "hood-decision-3-img-2" }],
       },
       {
         id: "cross-functional",
