@@ -77,9 +77,15 @@ export default function CaseStudySection({ section }: { section: CaseStudySectio
         {section.heading && (
           <h2 className="font-display text-h2 mb-8">{section.heading}</h2>
         )}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10 max-h-[600px]">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
   {section.images!.map((img) => (
-    <ArtifactBlock key={img.id} src={img.src} caption={img.caption} aspect="aspect-[9/19]" />
+    <div key={img.id} className="max-w-[200px] mx-auto">
+      <img
+        src={img.src || ""}
+        alt={img.caption || ""}
+        className="w-full h-auto"
+      />
+    </div>
   ))}
 </div>
         {hasMetrics && <MetricsGrid metrics={section.metrics!} />}
