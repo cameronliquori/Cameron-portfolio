@@ -16,7 +16,7 @@ export type CaseStudySectionData = {
   subheading?: string;
   fullWidth?: boolean;
   subLists?: SubList[];
-  images?: { id: string; src?: string; caption?: string }[];
+  images?: { id: string; src?: string; caption?: string; aspect?: string }[];
   metrics?: Metric[];
 };
 
