@@ -11,7 +11,7 @@ export default function CaseStudyHero({
 }) {
   return (
     <section className="bg-sage-400">
-      <div className="max-w-page mx-auto px-6 md:px-10 py-16 md:py-24 flex flex-col md:flex-row gap-10 md:gap-16 items-end">
+      <div className="max-w-page mx-auto px-6 md:px-10 py-16 md:py-24 flex flex-col md:flex-row gap-10 md:gap-16 items-stretch">
         {heroImage ? (
           <img
             src={heroImage}
@@ -25,10 +25,12 @@ export default function CaseStudyHero({
           />
         )}
         <div className="flex-1 flex flex-col items-end text-right">
-          <h1 className="font-display text-h1 text-ink mb-4">{title}</h1>
-          <p className="text-body text-ink/80 mb-auto">{description}</p>
+          <div>
+            <h1 className="font-display text-h1 text-ink mb-4 whitespace-nowrap">{title}</h1>
+            <p className="text-body text-ink/80">{description}</p>
+          </div>
           {heroMetricsSummary && (
-            <p className="text-body text-ink/60 mt-10">{heroMetricsSummary}</p>
+            <p className="text-small text-ink/60 mt-auto">{heroMetricsSummary}</p>
           )}
         </div>
       </div>
