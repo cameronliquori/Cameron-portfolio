@@ -135,10 +135,10 @@ export const caseStudies: CaseStudyData[] = [
       {
         id: "decision-3-images",
         images: [
-          { id: "hood-decision-3-img-1", src: "/Hood-holidays-sneakpeek-1.PNG" },
-          { id: "hood-decision-3-img-2", src: "/Hood-holidays-sneakpeek-2.PNG" },
-          { id: "hood-decision-3-img-3", src: "/Hood-holidays-sneakpeek-3.PNG" },
-          { id: "hood-decision-3-img-4", src: "/Hood-holidays-sneakpeek-4.PNG" },
+          { id: "hood-decision-3-img-1", src: "/Hood-holidays-sneakpeek-1.PNG", caption: "Peeled-down corner to indicate interaction" },
+          { id: "hood-decision-3-img-2", src: "/Hood-holidays-sneakpeek-2.PNG", caption: "Moving users from exploration to engagement"},
+          { id: "hood-decision-3-img-3", src: "/Hood-holidays-sneakpeek-3.PNG", caption: "Sharing with a friend" },
+          { id: "hood-decision-3-img-4", src: "/Hood-holidays-sneakpeek-4.PNG", caption: "What could it be? Join Gold to find out!" },
         ],
       },
       {
