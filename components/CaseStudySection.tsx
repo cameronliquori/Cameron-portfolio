@@ -57,7 +57,7 @@ export default function CaseStudySection({ section }: { section: CaseStudySectio
           </div>
           <div className="grid grid-cols-2 gap-4 content-start">
             {section.images!.map((img) => (
-              <ArtifactBlock key={img.id} src={img.src} caption={img.caption} aspect="aspect-[9/19]" />
+              <ArtifactBlock key={img.id} src={img.src} caption={img.caption} aspect={img.aspect ?? "aspect-[9/19]"} />
             ))}
           </div>
         </div>
@@ -79,13 +79,13 @@ export default function CaseStudySection({ section }: { section: CaseStudySectio
         )}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
   {section.images!.map((img) => (
-    <div key={img.id} className="max-w-[200px] mx-auto">
-      <img
-        src={img.src || ""}
-        alt={img.caption || ""}
-        className="w-full h-auto"
-      />
-    </div>
+    <div key={img.id} className="mx-auto">
+  <img
+    src={img.src || ""}
+    alt={img.caption || ""}
+    className="w-full h-auto rounded"
+  />
+</div>
   ))}
 </div>
         {hasMetrics && <MetricsGrid metrics={section.metrics!} />}
