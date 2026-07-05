@@ -1,6 +1,7 @@
 import { CaseStudySectionData } from "@/types/caseStudy";
 import ArtifactBlock from "@/components/ArtifactBlock";
 import MetricsGrid from "@/components/MetricsGrid";
+import CaseStudyTable from "@/components/CaseStudyTable";
 
 function SectionBody({ section }: { section: CaseStudySectionData }) {
   return (
@@ -43,23 +44,29 @@ function SectionBody({ section }: { section: CaseStudySectionData }) {
 
 export default function CaseStudySection({ section }: { section: CaseStudySectionData }) {
   const hasImages = !!section.images?.length;
+  const hasTable = !!section.table;
   const hasBody = !!section.subLists?.length;
   const hasMetrics = !!section.metrics?.length;
   const textWidthClass = section.fullWidth ? "w-full" : "max-w-reading";
 
-  // Layout A: body text + images → side-by-side
-  if (hasBody && hasImages) {
+  // Layout A: body text + images or table → side-by-side
+  if (hasBody && (hasImages || hasTable)) {
     return (
       <div className="py-16 border-t border-line">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
           <div className={textWidthClass}>
             <SectionBody section={section} />
           </div>
-          <div className={section.images!.length === 1 ? "flex flex-col" : "grid grid-cols-2 gap-4 content-start"}>
-  {section.images!.map((img) => (
-    <ArtifactBlock key={img.id} src={img.src} caption={img.caption} aspect={img.aspect ?? "aspect-[9/19]"} />
-  ))}
-</div>
+          <div className="content-start">
+            {hasTable && <CaseStudyTable table={section.table!} />}
+            {hasImages && (
+              <div className={section.images!.length === 1 ? "flex flex-col" : "grid grid-cols-2 gap-4"}>
+                {section.images!.map((img) => (
+                  <ArtifactBlock key={img.id} src={img.src} caption={img.caption} aspect={img.aspect ?? "aspect-[9/19]"} />
+                ))}
+              </div>
+            )}
+          </div>
         </div>
         {hasMetrics && (
           <div className="mt-10">
@@ -70,7 +77,7 @@ export default function CaseStudySection({ section }: { section: CaseStudySectio
     );
   }
 
-  // Layout B: images only → full-width grid above metrics
+  // Layout B: images only, no body text → full-width grid above metrics
   if (hasImages && !hasBody) {
     return (
       <div className="py-16 border-t border-line">
@@ -80,15 +87,15 @@ export default function CaseStudySection({ section }: { section: CaseStudySectio
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
           {section.images!.map((img) => (
             <figure key={img.id} className="max-w-[200px] mx-auto">
-  <img
-    src={img.src || ""}
-    alt={img.caption || ""}
-    className="w-full h-auto rounded"
-  />
-  {img.caption && (
-    <figcaption className="text-small text-ink-muted mt-2">{img.caption}</figcaption>
-  )}
-</figure>
+              <img
+                src={img.src || ""}
+                alt={img.caption || ""}
+                className="w-full h-auto rounded"
+              />
+              {img.caption && (
+                <figcaption className="text-small text-ink-muted mt-2">{img.caption}</figcaption>
+              )}
+            </figure>
           ))}
         </div>
         {hasMetrics && <MetricsGrid metrics={section.metrics!} />}
