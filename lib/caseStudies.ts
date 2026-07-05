@@ -226,7 +226,7 @@ export const caseStudies: CaseStudyData[] = [
             heading: "My role",
             asList: true,
             items: [
-              "First embedded Content Designer on Gold Card",
+              "First embedded Content Designer on the Gold Card team",
               "Led end-to-end content audit of the live experience",
               "Created Gold Card voice, tone, and grammar standards",
               "Rewrote onboarding and key product surfaces",
@@ -243,10 +243,10 @@ export const caseStudies: CaseStudyData[] = [
           {
             items: [
               "The Gold Card's legacy voice wasn't built under Robinhood's content standards.",
-              "Robinhood's brand voice is approachable, conversational, and human. The Gold Card, meanwhile, was being shaped around lofty descriptors like white-glove and concierge—but without a shared understanding of how those qualities actually translated in language.",
+              "Robinhood's brand voice is approachable, conversational, and human. The Gold Card, meanwhile, was being shaped around lofty descriptors like <em>white-glove</em> and <em>concierge</em>—but without a shared understanding of <strong>how those qualities translated in language.</strong>",
               "In practice, \"premium\" had become shorthand for formal. This assumption showed up across the experience: dense, passive language sometimes created friction at high-stakes moments, especially onboarding, where users were asked for sensitive information without enough context.",
-              "This revealed the central challenge: How do you make a financial product feel elevated without sacrificing warmth, clarity, or trust?",
-              "I landed on an insight that shaped my path forward: Premium doesn't mean formal—it means intentional.",
+              "This revealed the central challenge: <em>How do you make a financial product feel elevated without sacrificing warmth, clarity, or trust?</em>",
+              "I landed on an insight that shaped my path forward: <strong>Premium doesn't mean formal—it means intentional.</strong>",
               "Premium experiences don't feel elevated because they sound stuffy. It's because every detail feels deliberate: clear when stakes are high, restrained when simplicity is needed, and aspirational when emotion matters.",
             ],
           },
@@ -266,7 +266,7 @@ export const caseStudies: CaseStudyData[] = [
           headers: ["Pattern", "Symptom", "User impact", "Content solution"],
           rows: [
             [
-              "Overly formal and dry language",
+              "Overly formal, dry language",
               "Dense legal phrasing, lengthy and vague CTAs",
               "Reduced understanding and trust",
               "Speak with confidence and brevity instead",
@@ -300,15 +300,15 @@ export const caseStudies: CaseStudyData[] = [
           {
             asList: true,
             items: [
-              "Premium, not pretentious: elevated but not exclusionary.",
-              "Confident, not cold: lean warmer in language without sacrificing credibility.",
-              "Clear and concise, above all: in high-stakes financial moments, clarity is king.",
+              "<strong>Premium, not pretentious</strong>: elevated but not exclusionary.",
+              "<strong>Confident, not cold</strong>: lean warmer in language without sacrificing credibility.",
+              "<strong>Clear and concise, above all</strong>: in high-stakes financial moments, clarity is king.",
             ],
           },
           {
             items: [
               "I also adapted Robinhood's broader editorial standards—including active voice, grammar, and readability guidance—to ensure Gold Card maintained consistency with the larger product ecosystem.",
-              "This shifted content discussions away from personal preference and towards clearer, more intentional decisions.",
+              "This shifted content discussions away from personal preference and towards <strong>clearer, more intentional decisions.</strong>",
             ],
           },
         ],
@@ -317,7 +317,7 @@ export const caseStudies: CaseStudyData[] = [
             id: "gold-card-voice-framework",
             src: "/Voice-framework.png",
             aspect: "aspect-[4/3]",
-            caption: "Gold Card voice positioning framework",
+            caption: "The Gold Card needed to feel premium without creating distance—elevating the experience through clarity, warmth, and intentional language.",
           },
         ],
       },
@@ -329,8 +329,8 @@ export const caseStudies: CaseStudyData[] = [
           {
             items: [
               "One of the largest onboarding drop-off points occurred when users were asked to provide their Social Security number.",
-              "The screen requested highly sensitive information without clearly answering the questions users actually cared about: Why do you need this? Will you conduct a hard pull on my credit? What happens next?",
-              "I introduced lightweight disclosure content explaining that Robinhood would use the SSN to perform a soft pull of the user's credit report and verify their identity, along with clear expectations of the timeline for next steps.",
+              "The screen requested highly sensitive information without clearly answering the questions users actually cared about: <em>Why do you need this? Will you conduct a hard pull on my credit? What happens next?</em>",
+              "I introduced <strong>lightweight disclosure content</strong> explaining that Robinhood would use the SSN to perform a soft pull of the user's credit report and verify their identity, along with <strong>clear expectations</strong> of the timeline for next steps.",
               "Users are far more willing to share sensitive information when they understand why it's needed and what happens next. In high-stakes financial flows, clarity is one of the strongest trust signals you can offer.",
               "This small content change reduced ambiguity at a psychologically sensitive moment and helped reduce onboarding drop-off after launch.",
             ],
@@ -347,7 +347,7 @@ export const caseStudies: CaseStudyData[] = [
               "My manager and I initiated this audit proactively to challenge the team's existing mental model of content as late-stage execution, and to demonstrate content's end-to-end impact on UX, trust, and conversion.",
               "A turning point came when leadership reviewed my onboarding audit and approved the proposed changes in full.",
               "The shift became most visible in live messaging workshops. Instead of bringing me in late to refine microcopy, leadership began inviting me to pressure-test messaging directions in real time—using content not just to polish decisions, but to shape them.",
-              "The voice framework continued to be used after my move to a different team, and later helped inform foundational messaging for Robinhood Banking.",
+              "The voice framework continued to be used after my move to a different team, and later helped <strong>inform foundational messaging for Robinhood Banking.</strong>",
             ],
           },
         ],
