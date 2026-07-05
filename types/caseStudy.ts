@@ -10,6 +10,11 @@ export type SubList = {
   asList?: boolean;
 };
 
+export type TableData = {
+  headers: string[];
+  rows: string[][];
+};
+
 export type CaseStudySectionData = {
   id: string;
   heading?: string;
@@ -17,6 +22,7 @@ export type CaseStudySectionData = {
   fullWidth?: boolean;
   subLists?: SubList[];
   images?: { id: string; src?: string; caption?: string; aspect?: string }[];
+  table?: TableData;
   metrics?: Metric[];
 };
 
@@ -39,6 +45,7 @@ export type CaseStudyData = ProjectCardData & {
     text: string | string[];
   };
 };
+
 
 
 
