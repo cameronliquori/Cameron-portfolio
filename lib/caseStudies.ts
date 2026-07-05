@@ -140,8 +140,8 @@ export const caseStudies: CaseStudyData[] = [
         images: [
           { id: "hood-decision-3-img-1", src: "/hood-holidays-sneakpeek-gif1.GIF" },
           { id: "hood-decision-3-img-2", src: "/Hood-holidays-sneakpeek-3.PNG" },
-          { id: "hood-decision-3-img-3", src: "/Hood-holidays-sneakpeek-4.PNG", caption: "Day 2's grand prize: trip to Hawaii" },
-          { id: "hood-decision-3-img-4", src: "/Hood-holidays-riddle-6.PNG", caption: "Day 6's grand prize: Porsche 911" },
+          { id: "hood-decision-3-img-3", src: "/Hood-holidays-sneakpeek-4.PNG", caption: "Day 2's prize: trip to Hawaii" },
+          { id: "hood-decision-3-img-4", src: "/Hood-holidays-riddle-6.PNG", caption: "Day 6's prize: Porsche 911" },
         ],
       },
       {
