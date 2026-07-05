@@ -363,8 +363,8 @@ export const caseStudies: CaseStudyData[] = [
 
   {
     slug: "gold-rewards",
-    title: "Gold Rewards program",
-    subtitle: "Demystifying and legitimizing crypto through intentional content.",
+    title: "Coming soon...",
+    subtitle: "Coming soon...",
     company: "Robinhood",
     tags: ["Growth", "Content Design"],
     eyebrow: "Growth | Content Design",
@@ -378,8 +378,8 @@ export const caseStudies: CaseStudyData[] = [
   },
   {
     slug: "page-ai-chatbot",
-    title: "Page | AI Chatbot",
-    subtitle: "A writer's quest to create an AI assistant that analyzes your voice and edits within it.",
+    title: "Coming soon...",
+    subtitle: "Coming soon...",
     company: "Personal project",
     tags: ["AI", "Conversation Design"],
     eyebrow: "AI | Conversation Design",
