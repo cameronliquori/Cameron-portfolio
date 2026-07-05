@@ -218,7 +218,7 @@ export const caseStudies: CaseStudyData[] = [
           {
             items: [
               "After Robinhood's acquisition of X1, the Gold Card entered Robinhood's product ecosystem as a premium credit card with 3% cash back, exclusive benefits, and a separate app experience.",
-              "When I joined as the team's first embedded Content Designer, two gaps became clear: the Gold Card's existing infrastructure lacked a cohesive voice strategy, and content design was largely treated as a late-stage polish layer rather than a strategic partner.",
+              "When I joined as the team's <strong>first embedded Content Designer,</strong> two gaps became clear: the Gold Card's existing infrastructure <strong>lacked a cohesive voice strategy,</strong> and <strong>content design was treated as a late-stage polish layer</strong> rather than a strategic partner.",
               "My goals were twofold: define a scalable voice and tone system for the Gold Card, and demonstrate how content could improve user trust, reduce friction, and influence product decisions.",
             ],
           },
@@ -247,7 +247,7 @@ export const caseStudies: CaseStudyData[] = [
               "In practice, \"premium\" had become shorthand for formal. This assumption showed up across the experience: dense, passive language sometimes created friction at high-stakes moments, especially onboarding, where users were asked for sensitive information without enough context.",
               "This revealed the central challenge: <em>How do you make a financial product feel elevated without sacrificing warmth, clarity, or trust?</em>",
               "I landed on an insight that shaped my path forward: <strong>Premium doesn't mean formal—it means intentional.</strong>",
-              "Premium experiences don't feel elevated because they sound stuffy. It's because every detail feels deliberate: clear when stakes are high, restrained when simplicity is needed, and aspirational when emotion matters.",
+              "Premium experiences don't feel elevated because they sound stuffy. It's because every detail feels deliberate: <strong>clear</strong> when stakes are high, <strong>restrained</strong> when simplicity is needed, and <strong>aspirational</strong> when emotion matters.",
             ],
           },
         ],
@@ -269,7 +269,7 @@ export const caseStudies: CaseStudyData[] = [
               "Overly formal, dry language",
               "Dense legal phrasing, lengthy and vague CTAs",
               "Reduced understanding and trust",
-              "Speak with confidence and brevity instead",
+              "Reframe with confidence and brevity",
             ],
             [
               "Weak information hierarchy",
@@ -292,8 +292,8 @@ export const caseStudies: CaseStudyData[] = [
         subLists: [
           {
             items: [
-              "A major challenge was that feedback around content was highly subjective. Conversations often sounded like \"make this more premium\" or \"more white-glove\" without clear criteria for decision-making.",
-              "To solve this, I created a Gold Card content standards framework that translated abstract taste into actionable guidance and gave the team shared language for evaluating tradeoffs.",
+              "A major challenge: <strong>feedback around content was highly subjective</strong>. Conversations often sounded like \"make this more premium\" or \"more white-glove\" without clear criteria for decision-making.",
+              "To solve this, I created a <strong>Gold Card content standards framework</strong> that <em>translated abstract taste into actionable guidance</em> and gave the team shared language for evaluating tradeoffs.",
               "The voice system centered around three principles:",
             ],
           },
@@ -345,9 +345,9 @@ export const caseStudies: CaseStudyData[] = [
           {
             items: [
               "My manager and I initiated this audit proactively to challenge the team's existing mental model of content as late-stage execution, and to demonstrate content's end-to-end impact on UX, trust, and conversion.",
-              "A turning point came when leadership reviewed my onboarding audit and approved the proposed changes in full.",
-              "The shift became most visible in live messaging workshops. Instead of bringing me in late to refine microcopy, leadership began inviting me to pressure-test messaging directions in real time—using content not just to polish decisions, but to shape them.",
-              "The voice framework continued to be used after my move to a different team, and later helped <strong>inform foundational messaging for Robinhood Banking.</strong>",
+              "A turning point came when leadership reviewed my onboarding audit and <strong>approved the proposed changes</strong> in full.",
+              "The shift became most visible in live messaging workshops. Instead of bringing me in late to refine microcopy, leadership began inviting me to pressure-test messaging directions in real time—<strong>using content to shape decisions</strong> instead of polishing them.",
+              "The voice framework continued to be used after my move to a different team, and later helped inform foundational messaging for Robinhood Banking.",
             ],
           },
         ],
