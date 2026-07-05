@@ -217,8 +217,8 @@ export const caseStudies: CaseStudyData[] = [
         subLists: [
           {
             items: [
-              "After Robinhood's acquisition of X1, the Gold Card entered Robinhood's product ecosystem as a premium credit card with 3% cash back, exclusive benefits, and a separate app experience.",
-              "When I joined as the team's <strong>first embedded Content Designer,</strong> two gaps became clear: the Gold Card's existing infrastructure <strong>lacked a cohesive voice strategy,</strong> and <strong>content design was treated as a late-stage polish layer</strong> rather than a strategic partner.",
+              "After <strong>Robinhood's acquisition of X1,</strong> the Gold Card entered Robinhood's product ecosystem as a premium credit card with 3% cash back, exclusive benefits, and a separate app experience.",
+              "When I joined as the team's first embedded Content Designer, two gaps became clear: the Gold Card's existing infrastructure <strong>lacked a cohesive voice strategy,</strong> and content design was treated as a <strong>late-stage polish layer</strong> rather than a strategic partner.",
               "My goals were twofold: define a scalable voice and tone system for the Gold Card, and demonstrate how content could improve user trust, reduce friction, and influence product decisions.",
             ],
           },
@@ -226,7 +226,7 @@ export const caseStudies: CaseStudyData[] = [
             heading: "My role",
             asList: true,
             items: [
-              "First embedded Content Designer on the Gold Card team",
+              "<strong>First embedded Content Designer</strong> on the Gold Card team",
               "Led end-to-end content audit of the live experience",
               "Created Gold Card voice, tone, and grammar standards",
               "Rewrote onboarding and key product surfaces",
@@ -243,7 +243,7 @@ export const caseStudies: CaseStudyData[] = [
           {
             items: [
               "The Gold Card's legacy voice wasn't built under Robinhood's content standards.",
-              "Robinhood's brand voice is approachable, conversational, and human. The Gold Card, meanwhile, was being shaped around lofty descriptors like <em>white-glove</em> and <em>concierge</em>—but without a shared understanding of <strong>how those qualities translated in language.</strong>",
+              "Robinhood's brand voice is approachable, conversational, and human. The Gold Card, meanwhile, was being shaped around lofty descriptors like <strong>white-glove</strong> and <strong>concierge</strong>—but without a shared understanding of <em>how those qualities translated in language.</em>",
               "In practice, \"premium\" had become shorthand for formal. This assumption showed up across the experience: dense, passive language sometimes created friction at high-stakes moments, especially onboarding, where users were asked for sensitive information without enough context.",
               "This revealed the central challenge: <em>How do you make a financial product feel elevated without sacrificing warmth, clarity, or trust?</em>",
               "I landed on an insight that shaped my path forward: <strong>Premium doesn't mean formal—it means intentional.</strong>",
@@ -301,8 +301,8 @@ export const caseStudies: CaseStudyData[] = [
             asList: true,
             items: [
               "<strong>Premium, not pretentious</strong>: elevated but not exclusionary.",
-              "<strong>Confident, not cold</strong>: lean warmer in language without sacrificing credibility.",
-              "<strong>Clear and concise, above all</strong>: in high-stakes financial moments, clarity is king.",
+              "<strong>Confident, not cold</strong>: warmer language without sacrificing credibility.",
+              "<strong>Clear and concise, above all</strong>: in high-stakes moments, clarity is king.",
             ],
           },
           {
@@ -332,7 +332,7 @@ export const caseStudies: CaseStudyData[] = [
               "The screen requested highly sensitive information without clearly answering the questions users actually cared about: <em>Why do you need this? Will you conduct a hard pull on my credit? What happens next?</em>",
               "I introduced <strong>lightweight disclosure content</strong> explaining that Robinhood would use the SSN to perform a soft pull of the user's credit report and verify their identity, along with <strong>clear expectations</strong> of the timeline for next steps.",
               "Users are far more willing to share sensitive information when they understand why it's needed and what happens next. In high-stakes financial flows, clarity is one of the strongest trust signals you can offer.",
-              "This small content change reduced ambiguity at a psychologically sensitive moment and helped reduce onboarding drop-off after launch.",
+              "This small content change decreased ambiguity at a psychologically sensitive moment and helped <strong>reduce onboarding drop-off</strong> after launch.",
             ],
           },
         ],
