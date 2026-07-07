@@ -47,12 +47,6 @@ export const caseStudies: CaseStudyData[] = [
               "Operational constraints that prevented gifts from being delivered immediately after claim",
             ],
           },
-          {
-            items: [
-              "The biggest UX challenge emerged from that final constraint: users could “opt in” to claim a gift immediately upon the gift lineup announcement, but fulfillment and “reveal” of a user’s specific gift required manual verification—a 12–20 hour process.",
-              "This created a disappointing gap between anticipation and reward. I turned this waiting period into something <strong>emotionally engaging and intentional</strong>.",
-            ],
-          },
         ],
       },
       {
@@ -61,8 +55,9 @@ export const caseStudies: CaseStudyData[] = [
         subLists: [
           {
             items: [
-              "Engineering established early that gift claims and gift reveals had to be separate states.",
-              "To reframe this built-in friction as a design opportunity, <strong>I developed a content strategy centered around anticipation:</strong> making the daily gift lineup reveal as exciting as the eventual gift unwrap.",
+              "The biggest UX challenge emerged from that final constraint: users could “opt in” to claim a gift immediately upon the gift lineup announcement, but fulfillment and “reveal” of a user’s specific gift required manual verification—a 12–20 hour process.",
+              "I reframed this built-in friction as a design opportunity, turning this operational gap into something emotionally engaging and intentional.",
+              "<strong>I developed a content strategy centered around anticipation:</strong> making the daily gift lineup reveal as exciting as the eventual gift unwrap.",
               "Each day’s gift lineup reveal opened with content designed to create buildup and hype.",
               "These “drumroll” moments maintained excitement while reinforcing the key benefit: if you’re here seeing the reveal, you’re guaranteed a gift later today.",
               "The lineup reveals became major moments of excitement both in-product and on social, turning a backend limitation into a core emotional beat of the experience.",
