@@ -11,6 +11,7 @@ export default function CaseStudyTemplate({ caseStudy }: { caseStudy: CaseStudyD
   description={caseStudy.heroDescription}
   heroMetricsSummary={caseStudy.heroMetricsSummary}
   heroImage={caseStudy.heroImage}
+  heroImageAspect={caseStudy.heroImageAspect}
 />
 
       <div className="max-w-page mx-auto px-6 md:px-10">
