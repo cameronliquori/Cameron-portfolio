@@ -4,12 +4,14 @@ export default function CaseStudyHero({
   heroMetricsSummary,
   heroImage,
   heroImageAspect,
+  titleNoWrap,
 }: {
   title: string;
   description: string;
   heroMetricsSummary?: string;
   heroImage?: string;
   heroImageAspect?: string;
+  titleNoWrap?: boolean;
 }) {
   return (
     <section className="bg-sage-400">
@@ -36,7 +38,7 @@ export default function CaseStudyHero({
         )}
         <div className="flex-1 flex flex-col md:items-end md:text-right justify-between">
           <div className="flex-1 flex flex-col md:items-end justify-center">
-            <h1 className="font-display text-h1 text-ink mb-4 md:whitespace-nowrap">{title}</h1>
+            <h1 className={`font-display text-h1 text-ink mb-4 ${titleNoWrap ? "md:whitespace-nowrap" : ""}`}>{title}</h1>
             <p className="text-body text-ink/80">{description}</p>
           </div>
           {heroMetricsSummary && (
@@ -47,3 +49,4 @@ export default function CaseStudyHero({
     </section>
   );
 }
+
