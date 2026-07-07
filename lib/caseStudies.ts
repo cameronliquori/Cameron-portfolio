@@ -50,8 +50,7 @@ export const caseStudies: CaseStudyData[] = [
           {
             items: [
               "The biggest UX challenge emerged from that final constraint: users could “opt in” to claim a gift immediately upon the gift lineup announcement, but fulfillment and “reveal” of a user’s specific gift required manual verification—a 12–20 hour process.",
-              "This created a potentially disappointing gap between anticipation and reward.",
-              "I aimed to make the waiting period feel <strong>emotionally engaging and intentional</strong>, not frustrating.",
+              "This created a disappointing gap between anticipation and reward. I turned this waiting period into something <strong>emotionally engaging and intentional</strong>.",
             ],
           },
         ],
@@ -63,10 +62,10 @@ export const caseStudies: CaseStudyData[] = [
           {
             items: [
               "Engineering established early that gift claims and gift reveals had to be separate states.",
-              "I reframed this built-in friction as a design opportunity. <strong>I developed a content strategy centered around anticipation:</strong> making the daily gift lineup reveal feel nearly as exciting as the eventual gift unwrap.",
-              "Each day’s gift lineup reveal opened with content designed to create a sense of buildup and hype.",
-              "This “drumroll” moment maintained excitement while reinforcing a simple promise: if you’re here seeing the reveal, you’re guaranteed a gift later today.",
-              "The lineup reveals became major moments of excitement both in-product and on social, transforming a backend limitation into a core emotional beat of the experience.",
+              "To reframe this built-in friction as a design opportunity, <strong>I developed a content strategy centered around anticipation:</strong> making the daily gift lineup reveal as exciting as the eventual gift unwrap.",
+              "Each day’s gift lineup reveal opened with content designed to create buildup and hype.",
+              "These “drumroll” moments maintained excitement while reinforcing the key benefit: if you’re here seeing the reveal, you’re guaranteed a gift later today.",
+              "The lineup reveals became major moments of excitement both in-product and on social, turning a backend limitation into a core emotional beat of the experience.",
             ],
           },
         ],
@@ -81,8 +80,7 @@ export const caseStudies: CaseStudyData[] = [
         subLists: [
           {
             items: [
-              "This experience spanned more than 100 screens and 40+ unique prizes—<strong>consistency was critical.</strong>",
-              "I established three guiding content principles early in development:",
+              "This experience spanned more than 100 screens and 40+ unique prizes—<strong>consistency was critical.</strong> I established three guiding content principles early in development:",
             ],
           },
           {
@@ -95,7 +93,7 @@ export const caseStudies: CaseStudyData[] = [
           },
           {
             items: [
-              "Robinhood's in-product voice leans informational in complex financial contexts. HOOD Holidays allowed me to leverage a more playful, emotionally expressive side of the brand without sacrificing clarity.",
+              "Robinhood's in-product voice leans informational in complex financial contexts. For HOOD Holidays, I leveraged a more playful, emotionally expressive side of the brand without sacrificing clarity.",
               "To scale this voice across dozens of prize reveal states, I used <strong>AI as an ideation tool</strong> during early exploration.",
               "I generated broad sets of options, then curated, rewrote, and refined final content to ensure every surface met Robinhood's voice and quality standards.",
               "This allowed me to <strong>scale creative variation efficiently</strong> while maintaining a high editorial bar.",
@@ -115,7 +113,7 @@ export const caseStudies: CaseStudyData[] = [
             items: [
               'One of my proudest contributions: pitching and designing a <strong>"sneak peek"</strong> system.',
               "Above all, HOOD Holidays was meant to inspire delight. Rewarding exploration maintains momentum even when there isn't a gift to unwrap.",
-              "If users tried to unwrap a gift early, they were met with playful content acknowledging that they'd been caught peeking. Instead of ending the interaction there, <strong>I advocated for an incentive loop:</strong> referring a friend unlocked an early clue about the next day's prizes in the form of a riddle.",
+              "If users tried to unwrap a gift early, they saw a playful message acknowledging that they'd been caught peeking. Instead of ending the interaction there, <strong>I advocated for an incentive loop:</strong> referring a friend unlocks an early clue about the next day's prizes in the form of a riddle.",
               "These riddles could hint at prizes gated behind Gold members-only days, naturally linking desire with upgrade motivation for non-Gold users.",
               "This served multiple goals simultaneously:",
             ],
@@ -141,8 +139,8 @@ export const caseStudies: CaseStudyData[] = [
         images: [
           { id: "hood-decision-3-img-1", src: "/hood-holidays-sneakpeek-gif1.GIF" },
           { id: "hood-decision-3-img-2", src: "/Hood-holidays-sneakpeek-3.PNG" },
-          { id: "hood-decision-3-img-3", src: "/Hood-holidays-sneakpeek-4.PNG", caption: "Day 2's prize: trip to Hawaii" },
-          { id: "hood-decision-3-img-4", src: "/Hood-holidays-riddle-6.PNG", caption: "Day 6's prize: Porsche 911" },
+          { id: "hood-decision-3-img-3", src: "/Hood-holidays-sneakpeek-4.PNG", caption: "Day 2: a trip to Hawaii" },
+          { id: "hood-decision-3-img-4", src: "/Hood-holidays-riddle-6.PNG", caption: "Day 6: a Porsche 911" },
         ],
       },
       {
@@ -152,7 +150,7 @@ export const caseStudies: CaseStudyData[] = [
           {
             items: [
               "Beyond content execution, I served as a connective partner across multiple disciplines.",
-              "I worked closely with Product Design and Product Management during concept exploration, helping shape <strong>user journeys, information architecture, and wireframes</strong> that we successfully presented to Robinhood’s CEO.",
+              "I worked closely with Product Design and Product Management to explore and create concepts, helping shape <strong>user journeys, information architecture, and wireframes</strong> that we successfully presented to Robinhood’s CEO.",
               "I also <strong>led daily content reviews with 15+ Legal and Compliance stakeholders</strong> across multiple regulatory domains, creating an ongoing decision-making forum for resolving ambiguity quickly without sacrificing product velocity or UX quality.",
               "This structure helped us maintain clarity, compliance, and consistency across all in-product and external surfaces.",
             ],
@@ -175,12 +173,12 @@ export const caseStudies: CaseStudyData[] = [
           {
             value: "920K+",
             label: "unique participants across 6 days",
-            detail: "Highest-attended live event in Robinhood history",
+            detail: "Highest attendance for a live event in Robinhood history",
           },
           {
             value: "200K",
             label: "new Robinhood Gold subscriptions",
-            detail: "60K above finance target",
+            detail: "Exceeded finance's target by 60K",
           },
           {
             value: "7.84M",
