@@ -55,11 +55,11 @@ export const caseStudies: CaseStudyData[] = [
         subLists: [
           {
             items: [
-              "The biggest UX challenge emerged from that final constraint: users could “opt in” to claim a gift immediately upon the gift lineup announcement, but fulfillment and “reveal” of a user’s specific gift required manual verification—a 12–20 hour process.",
-              "I reframed this built-in friction as a design opportunity, turning this operational gap into something emotionally engaging and intentional.",
+              "The biggest UX challenge emerged from that final constraint: users could “opt in” to claim a gift as soon as that day's prizes were announced, but fulfillment and “reveal” of a user’s specific gift required manual verification—a <strong>12–20 hour process</strong>.",
+              "My goal: reframe this built-in friction into something engaging and intentional.",
               "<strong>I developed a content strategy centered around anticipation:</strong> making the daily gift lineup reveal as exciting as the eventual gift unwrap.",
               "Each day’s gift lineup reveal opened with content designed to create buildup and hype.",
-              "These “drumroll” moments maintained excitement while reinforcing the key benefit: if you’re here seeing the reveal, you’re guaranteed a gift later today.",
+              "These “drumroll” moments reinforced the key benefit: if you’re here seeing the reveal, you’re guaranteed a gift later today.",
               "The lineup reveals became major moments of excitement both in-product and on social, turning a backend limitation into a core emotional beat of the experience.",
             ],
           },
