@@ -211,7 +211,8 @@ export const caseStudies: CaseStudyData[] = [
     tags: ["Systems Design", "Content Design"],
     eyebrow: "Systems Design | Content Design",
     heroDescription: "Building a voice system and a seat at the table—from copy support to strategic partner.",
-    sections: [
+    heroImage: "Gold-card-hero-PNG",
+      sections: [
       {
         id: "overview",
         heading: "Overview",
