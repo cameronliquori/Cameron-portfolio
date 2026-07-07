@@ -12,6 +12,7 @@ export const caseStudies: CaseStudyData[] = [
       "6 days. $7M in luxury prizes. 1 content POV to take it to 100.",
     heroMetricsSummary: "920K participants · +200K new Gold subscribers · 7.84M social impressions",
    heroImage: "Hood-holidays-full-header.jpg",
+    titleNoWrap: true,
     sections: [
       {
         id: "overview",
