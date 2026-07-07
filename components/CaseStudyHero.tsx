@@ -1,28 +1,33 @@
-import Image from "next/image";
-
 export default function CaseStudyHero({
   title,
   description,
   heroMetricsSummary,
   heroImage,
+  heroImageAspect,
 }: {
   title: string;
   description: string;
   heroMetricsSummary?: string;
   heroImage?: string;
+  heroImageAspect?: string;
 }) {
   return (
     <section className="bg-sage-400">
       <div className="max-w-page mx-auto px-6 md:px-10 py-16 md:py-24 flex flex-col md:flex-row gap-10 md:gap-16 items-stretch">
         {heroImage ? (
-          <div className="w-full md:w-[43%] aspect-[4/3] relative shrink-0">
-            <Image
+          heroImageAspect ? (
+            <img
               src={heroImage}
               alt={title}
-              fill
-              className="object-cover rounded"
+              className={`w-full md:w-[43%] ${heroImageAspect} object-cover rounded shrink-0`}
             />
-          </div>
+          ) : (
+            <img
+              src={heroImage}
+              alt={title}
+              className="w-full md:w-[43%] h-auto rounded shrink-0"
+            />
+          )
         ) : (
           <div
             className="placeholder-block w-full md:w-[43%] aspect-[4/3] shrink-0"
@@ -42,4 +47,3 @@ export default function CaseStudyHero({
     </section>
   );
 }
-
