@@ -40,6 +40,7 @@ export type CaseStudyData = ProjectCardData & {
   heroMetricsSummary?: string;
     heroImage?: string;
   heroImageAspect?: string;
+  titleNoWrap?: boolean;
   sections: CaseStudySectionData[];
   reflection?: {
     heading?: string;
