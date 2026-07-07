@@ -240,8 +240,8 @@ export const caseStudies: CaseStudyData[] = [
           {
             items: [
               "The Gold Card's legacy voice wasn't built under Robinhood's content standards.",
-              "Robinhood's brand voice is approachable, conversational, and human. The Gold Card, meanwhile, was being shaped around lofty descriptors like <strong>white-glove</strong> and <strong>concierge</strong>—but without a shared understanding of <em>how those qualities translated in language.</em>",
-              "In practice, \"premium\" had become shorthand for formal. This assumption showed up across the experience: dense, passive language sometimes created friction at high-stakes moments, especially onboarding, where users were asked for sensitive information without enough context.",
+              "Robinhood's brand voice is approachable, conversational, and human. The Gold Card, meanwhile, was being shaped around lofty descriptors like <em>white-glove</em> and <em>luxury</em>—but without a shared understanding of <strong>how those qualities translated in language.</strong>",
+              "In practice, \"premium\" had become shorthand for formal. This assumption showed up across the experience: dense, passive language created friction at high-stakes moments, especially onboarding, where users were asked for sensitive information without enough context.",
               "This revealed the central challenge: <em>How do you make a financial product feel elevated without sacrificing warmth, clarity, or trust?</em>",
               "I landed on an insight that shaped my path forward: <strong>Premium doesn't mean formal—it means intentional.</strong>",
               "Premium experiences don't feel elevated because they sound stuffy. It's because every detail feels deliberate: <strong>clear</strong> when stakes are high, <strong>restrained</strong> when simplicity is needed, and <strong>aspirational</strong> when emotion matters.",
@@ -298,8 +298,8 @@ export const caseStudies: CaseStudyData[] = [
             asList: true,
             items: [
               "<strong>Premium, not pretentious</strong>: elevated but not exclusionary.",
-              "<strong>Confident, not cold</strong>: warmer language without sacrificing credibility.",
-              "<strong>Clear and concise, above all</strong>: in high-stakes moments, clarity is king.",
+              "<strong>Confident, not cold</strong>: channeling high-end concierge energy.",
+              "<strong>Clear and concise, above all</strong>: in financial contexts, clarity is king.",
             ],
           },
           {
