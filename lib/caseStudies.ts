@@ -500,7 +500,7 @@ export const caseStudies: CaseStudyData[] = [
           { id: "gold-rewards-beyond-img-2", src: "", caption: "iPhone screen placeholder" }
         ]
       },
-      {
+{
         id: "outcome",
         heading: "Outcome",
         fullWidth: true,
@@ -512,7 +512,10 @@ export const caseStudies: CaseStudyData[] = [
               "The first-come, first-served events also taught us valuable lessons about expectation management, ultimately influencing how future limited releases were designed."
             ]
           }
-        ],
+        ]
+      },
+      {
+        id: "outcome-images",
         images: [
           { id: "gold-rewards-outcome-1", src: "", caption: "Outcome image placeholder" },
           { id: "gold-rewards-outcome-2", src: "", caption: "Outcome image placeholder" },
@@ -536,7 +539,8 @@ export const caseStudies: CaseStudyData[] = [
             detail: "Naming, hierarchy, eligibility, and user flows built to scale"
           }
         ]
-      }
+      },
+
     ],
     reflection: {
       heading: "Reflection",
