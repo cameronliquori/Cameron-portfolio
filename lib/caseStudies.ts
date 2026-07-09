@@ -443,7 +443,6 @@ export const caseStudies: CaseStudyData[] = [
               "New destination, need to build from scratch"
             ],
           footer: "My recommendation: Separate Gold Rewards Program page"
-          ]
         }
       },
       {
