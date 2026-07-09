@@ -355,8 +355,7 @@ export const caseStudies: CaseStudyData[] = [
       text: "This project reinforced something I still believe deeply: content design is rarely just about the words on a screen. Done well, it shapes how teams think, how products build trust, and how strategy becomes tangible in the user experience.",
     },
   },
-
-    {
+     {
     slug: "gold-rewards",
     title: "Gold Rewards Program",
     subtitle: "Building a premium membership beyond APY.",
@@ -377,8 +376,8 @@ export const caseStudies: CaseStudyData[] = [
               "Robinhood Gold is a premium subscription built around a hero value proposition: a market-leading APY on uninvested cash.",
               "But as interest rates fluctuated, that value proposition became less differentiated. At the same time, many members weren't engaging with Gold's other perks, making it harder to justify a $5/month subscription.",
               "To redefine Gold's value beyond APY, our team created the Gold Rewards Program: a new monthly ecosystem of premium experiences and exclusive products designed to give members a compelling reason to return every month.",
-              "I partnered with Product Design from the earliest concept sketches through launch, leading content strategy, information architecture, naming, and UX writing across the experience.",
-            ],
+              "I partnered with Product Design from the earliest concept sketches through launch, leading content strategy, information architecture, naming, and UX writing across the experience."
+            ]
           },
           {
             heading: "My role",
@@ -389,10 +388,10 @@ export const caseStudies: CaseStudyData[] = [
               "Information architecture",
               "UX writing",
               "Cross-functional product definition",
-              "Design partnership",
-            ],
-          },
-        ],
+              "Design partnership"
+            ]
+          }
+        ]
       },
       {
         id: "problem",
@@ -404,10 +403,10 @@ export const caseStudies: CaseStudyData[] = [
               "APY was becoming a weaker acquisition story—we needed to broaden what a \"Gold membership\" meant, and why it was worth paying for.",
               "Our objective: create monthly, \"no-brainer\" value that users could immediately understand, whether or not they were advanced traders.",
               "Every reward needed to answer one question: \"Would this alone make Gold feel worth $5 a month?\"",
-              "That shifted the conversation away from financial incentives and towards memorable experiences and tangible value.",
-            ],
-          },
-        ],
+              "That shifted the conversation away from financial incentives and towards memorable experiences and tangible value."
+            ]
+          }
+        ]
       },
       {
         id: "decision-1",
@@ -419,12 +418,12 @@ export const caseStudies: CaseStudyData[] = [
               "When we kicked off, Robinhood already had multiple incentive ecosystems: Gold membership benefits, Gold Card point rewards, Offers Hub, and promotional incentives. Introducing another destination created an immediate risk—users could easily assume this was undifferentiated from the existing offers experience.",
               "The Offers Hub team initially proposed that we merged the new program directly into their page. I advocated against this—the Offers Hub intentionally mixed Gold and non-Gold promotions. The Gold Rewards program, on the other hand, needed to feel like an exclusive membership benefit—not another standard list of promotions.",
               "Keeping the experiences separate reinforced the premium, Gold-only positioning while creating a clearer mental model for customers.",
-              "I also pushed against using Gold Card points for the MVP of our rewards program. While reusing the existing points ecosystem might have created internal consistency, it would have excluded Gold members without the credit card and complicated the experience with another prerequisite.",
-            ],
-          },
+              "I also pushed against using Gold Card points for the MVP of our rewards program. While reusing the existing points ecosystem might have created internal consistency, it would have excluded Gold members without the credit card and complicated the experience with another prerequisite."
+            ]
+          }
         ],
         images: [
-          { id: "gold-rewards-decision-1-diagram", src: "", caption: "Diagram placeholder: ecosystem positioning diagram" },
+          { id: "gold-rewards-decision-1-diagram", src: "", caption: "Diagram placeholder: ecosystem positioning diagram" }
         ],
         table: {
           headers: ["Option", "Pros", "Cons"],
@@ -432,20 +431,20 @@ export const caseStudies: CaseStudyData[] = [
             [
               "Merge into Offers Hub",
               "Easier for engineering",
-              "Dilutes Gold-exclusive positioning",
+              "Dilutes Gold-exclusive positioning"
             ],
             [
               "Merge with Gold Card points",
               "Aligns with existing rewards structure in ecosystem",
-              "Excludes Gold customers who don't have the credit card",
+              "Excludes Gold customers who don't have the credit card"
             ],
             [
               "Separate Gold Rewards Program page",
               "Clearer and cleaner mental model",
-              "New destination, need to build from scratch",
-            ],
-          ],
-        },
+              "New destination, need to build from scratch"
+            ]
+          ]
+        }
       },
       {
         id: "decision-2",
@@ -456,14 +455,14 @@ export const caseStudies: CaseStudyData[] = [
               "Instead of asking, \"How can we save people money with Gold?\" we asked, \"What would feel genuinely exciting to receive every month?\"",
               "We intentionally chose experiences, physical goods, and surprises over traditional discounts because we wanted Gold to feel aspirational and packed with real-world value, rather than transactional.",
               "From April through June, the ecosystem included monthly first-come, first-served ticket drops for high-profile events, monthly crypto mystery gifts, six complimentary months of DashPass, the Gold Collection merchandise store, and a limited-time Gold Bar Private Sale.",
-              "Although the launch included five distinct reward types, my goal wasn't to design five separate experiences. I established reusable patterns for naming, hierarchy, eligibility, and recurring user flows so future rewards could slot naturally into the experience without reinventing it each month.",
-            ],
-          },
+              "Although the launch included five distinct reward types, my goal wasn't to design five separate experiences. I established reusable patterns for naming, hierarchy, eligibility, and recurring user flows so future rewards could slot naturally into the experience without reinventing it each month."
+            ]
+          }
         ],
         images: [
           { id: "gold-rewards-decision-2-img-1", src: "", caption: "iPhone screen placeholder" },
-          { id: "gold-rewards-decision-2-img-2", src: "", caption: "iPhone screen placeholder" },
-        ],
+          { id: "gold-rewards-decision-2-img-2", src: "", caption: "iPhone screen placeholder" }
+        ]
       },
       {
         id: "decision-3",
@@ -476,13 +475,13 @@ export const caseStudies: CaseStudyData[] = [
               "We ran this structure several times, with each drop functioning as a live usability test. After each event, we refined the experience based on observed user confusion.",
               "Following the Super Bowl drop, I rewrote the in-app instructions to make participation requirements more explicit. Following the NBA Finals drop, I revised queue messaging within Shopify to more clearly distinguish joining the queue from actually receiving tickets.",
               "When the Gold Bar Private Sale surfaced similar frustrations, our team ultimately shifted away from first-come-first-served mechanics entirely. For the World Cup ticket drop, we moved to asynchronous backend allocation, significantly reducing disappointment while preserving excitement.",
-              "Each drop informed the next. By treating launch as the beginning rather than the finish line, we both refined the experience and evolved the underlying system with every release.",
-            ],
-          },
+              "Each drop informed the next. By treating launch as the beginning rather than the finish line, we both refined the experience and evolved the underlying system with every release."
+            ]
+          }
         ],
         images: [
-          { id: "gold-rewards-decision-3-diagram", src: "", caption: "Diagram placeholder: iteration cycle across drops" },
-        ],
+          { id: "gold-rewards-decision-3-diagram", src: "", caption: "Diagram placeholder: iteration cycle across drops" }
+        ]
       },
       {
         id: "beyond-product",
@@ -492,14 +491,14 @@ export const caseStudies: CaseStudyData[] = [
             items: [
               "Because the ticket experience couldn't be hosted inside Robinhood, we designed and launched a companion Shopify experience that still needed to feel unmistakably Robinhood.",
               "Working within an unfamiliar platform meant establishing new patterns for navigation, privacy messaging, and content structure while maintaining a seamless voice across two products.",
-              "Creating a consistent voice and customer experience across two platforms became just as important as designing the rewards themselves.",
-            ],
-          },
+              "Creating a consistent voice and customer experience across two platforms became just as important as designing the rewards themselves."
+            ]
+          }
         ],
         images: [
           { id: "gold-rewards-beyond-img-1", src: "", caption: "iPhone screen placeholder" },
-          { id: "gold-rewards-beyond-img-2", src: "", caption: "iPhone screen placeholder" },
-        ],
+          { id: "gold-rewards-beyond-img-2", src: "", caption: "iPhone screen placeholder" }
+        ]
       },
       {
         id: "outcome",
@@ -510,45 +509,44 @@ export const caseStudies: CaseStudyData[] = [
             items: [
               "Within three months, Gold Rewards contributed to more than 120,000 new Gold subscriptions, helping reposition Gold around recurring monthly value rather than a single hero benefit.",
               "Among the available rewards, the monthly crypto gifts became the strongest acquisition driver, while recurring monthly rewards encouraged users to return throughout the month rather than viewing Gold as a one-time purchase.",
-              "The first-come, first-served events also taught us valuable lessons about expectation management, ultimately influencing how future limited releases were designed.",
-            ],
-          },
+              "The first-come, first-served events also taught us valuable lessons about expectation management, ultimately influencing how future limited releases were designed."
+            ]
+          }
         ],
         images: [
           { id: "gold-rewards-outcome-1", src: "", caption: "Outcome image placeholder" },
           { id: "gold-rewards-outcome-2", src: "", caption: "Outcome image placeholder" },
           { id: "gold-rewards-outcome-3", src: "", caption: "Outcome image placeholder" },
-          { id: "gold-rewards-outcome-4", src: "", caption: "Outcome image placeholder" },
+          { id: "gold-rewards-outcome-4", src: "", caption: "Outcome image placeholder" }
         ],
         metrics: [
           {
             value: "120K+",
             label: "new Gold subscriptions",
-            detail: "Within three months of launch",
+            detail: "Within three months of launch"
           },
           {
             value: "5",
             label: "distinct reward types launched",
-            detail: "Tickets, crypto gifts, DashPass, merchandise, and private sales",
+            detail: "Tickets, crypto gifts, DashPass, merchandise, and private sales"
           },
           {
             value: "Reusable",
             label: "patterns for recurring monthly rewards",
-            detail: "Naming, hierarchy, eligibility, and user flows built to scale",
-          },
-        ],
-            },
+            detail: "Naming, hierarchy, eligibility, and user flows built to scale"
+          }
+        ]
+      }
     ],
     reflection: {
       heading: "Reflection",
       text: [
         "Gold Rewards began as a response to changing market conditions, but the project ultimately became about something much larger: redefining what Gold membership meant.",
         "The biggest lesson I took away was that strong subscription products aren't built around a single feature. They're built around a system of reasons to return.",
-        "This project reinforced how content strategy can shape both how a product is understood and what the product becomes.",
-      ],
-    },
+        "This project reinforced how content strategy can shape both how a product is understood and what the product becomes."
+      ]
+    }
   },
-    ],
   {
     slug: "page-ai-chatbot",
     title: "Coming soon...",
