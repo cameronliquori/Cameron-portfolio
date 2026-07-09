@@ -23,8 +23,19 @@ export default function CaseStudyTable({ table }: { table: TableData }) {
               ))}
             </tr>
           ))}
+          {table.footer && (
+            <tr>
+              <td
+                colSpan={table.headers.length}
+                className="text-ink font-semibold px-4 py-3"
+              >
+                {table.footer}
+              </td>
+            </tr>
+          )}
         </tbody>
       </table>
     </div>
   );
 }
+
