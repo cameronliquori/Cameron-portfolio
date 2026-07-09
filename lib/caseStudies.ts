@@ -442,6 +442,7 @@ export const caseStudies: CaseStudyData[] = [
               "Clearer and cleaner mental model",
               "New destination, need to build from scratch"
             ],
+          ],
           footer: "My recommendation: Separate Gold Rewards Program page",
         }
       },
