@@ -548,9 +548,7 @@ export const caseStudies: CaseStudyData[] = [
       ],
     },
   },
-      },
     ],
-  },
   {
     slug: "page-ai-chatbot",
     title: "Coming soon...",
