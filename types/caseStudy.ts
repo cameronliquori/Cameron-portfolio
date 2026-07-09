@@ -13,6 +13,7 @@ export type SubList = {
 export type TableData = {
   headers: string[];
   rows: string[][];
+  footer?: string;
 };
 
 export type CaseStudySectionData = {
