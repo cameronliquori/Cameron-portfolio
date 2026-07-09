@@ -6,9 +6,11 @@ export default function SelectedWork() {
     <section id="work" className="max-w-page mx-auto px-6 md:px-10 pb-24">
       <h2 className="font-display text-h2 mb-10">Selected work</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {caseStudies.map((project) => (
-          <ProjectCard key={project.slug} project={project} />
-        ))}
+        {caseStudies
+  .filter((p) => p.slug !== "gold-rewards" && p.slug !== "page-ai-chatbot")
+  .map((project) => (
+    <ProjectCard key={project.slug} project={project} />
+  ))}
       </div>
     </section>
   );
