@@ -375,7 +375,7 @@ export const caseStudies: CaseStudyData[] = [
             items: [
               "Robinhood Gold is a premium subscription built around a hero value proposition: a market-leading APY on uninvested cash.",
               "But as interest rates fluctuated, that value proposition became less differentiated. At the same time, many members weren't engaging with Gold's other perks, making it harder to justify a $5/month subscription.",
-              "To redefine Gold's value beyond APY, our team created the Gold Rewards Program: a new monthly ecosystem of premium experiences and exclusive products designed to give members a compelling reason to return every month.",
+              "To <strong>redefine Gold's value beyond APY</strong>, our team created the Gold Rewards Program: a new monthly ecosystem of premium experiences and exclusive products designed to give members a compelling reason to return every month.",
               "I partnered with Product Design from the earliest concept sketches through launch, leading content strategy, information architecture, naming, and UX writing across the experience."
             ]
           },
@@ -401,9 +401,8 @@ export const caseStudies: CaseStudyData[] = [
           {
             items: [
               "APY was becoming a weaker acquisition story—we needed to broaden what a \"Gold membership\" meant, and why it was worth paying for.",
-              "Our objective: create monthly, \"no-brainer\" value that users could immediately understand, whether or not they were advanced traders.",
-              "Every reward needed to answer one question: \"Would this alone make Gold feel worth $5 a month?\"",
-              "That shifted the conversation away from financial incentives and towards memorable experiences and tangible value."
+              "Our objective: create monthly, \"no-brainer\" value that users could immediately understand, whether or not they were advanced traders. Every reward needed to answer one question: <em>\"Would this alone make Gold feel worth $5 a month?\"</em>",
+              "This shifted the conversation away from financial incentives and towards memorable experiences and tangible value."
             ]
           }
         ]
@@ -414,11 +413,11 @@ export const caseStudies: CaseStudyData[] = [
         subLists: [
           {
             items: [
-              "Before we designed new rewards, we had to answer a more fundamental question: what should the Gold Rewards Program actually be?",
-              "When we kicked off, Robinhood already had multiple incentive ecosystems: Gold membership benefits, Gold Card point rewards, Offers Hub, and promotional incentives. Introducing another destination created an immediate risk—users could easily assume this was undifferentiated from the existing offers experience.",
-              "The Offers Hub team initially proposed that we merged the new program directly into their page. I advocated against this—the Offers Hub intentionally mixed Gold and non-Gold promotions. The Gold Rewards program, on the other hand, needed to feel like an exclusive membership benefit—not another standard list of promotions.",
-              "Keeping the experiences separate reinforced the premium, Gold-only positioning while creating a clearer mental model for customers.",
-              "I also pushed against using Gold Card points for the MVP of our rewards program. While reusing the existing points ecosystem might have created internal consistency, it would have excluded Gold members without the credit card and complicated the experience with another prerequisite."
+              "Before we designed new rewards, we had to answer a more fundamental question: <em>what should the Gold Rewards Program actually be?</em>",
+              "When we kicked off, Robinhood already had multiple incentive ecosystems: Gold membership benefits, Gold Card point rewards, the Offers Hub, and promotional incentives. By introducing another destination, users could easily assume this was undifferentiated from the existing offers experience.",
+              "The Offers Hub team initially proposed that we merged the new program directly into their page. <strong>I advocated against this</strong>—the Offers Hub intentionally mixed Gold and non-Gold promotions. The Gold Rewards program needed to feel like an exclusive membership benefit, not another standard list of promotions.",
+              "Keeping the experiences separate reinforced the premium, Gold-only positioning while creating a <strong>clearer mental model</strong> for customers.",
+              "I also advocated against using Gold Card points for the MVP of our rewards program. While reusing the existing points ecosystem might have created internal consistency, it would have excluded Gold members without the credit card and complicated the experience with another prerequisite."
             ]
           }
         ],
@@ -467,14 +466,26 @@ export const caseStudies: CaseStudyData[] = [
       {
         id: "decision-3",
         heading: "Key Decision 3: Designing Excitement Without Creating False Expectations",
-        subLists: [
+                subLists: [
           {
             items: [
               "The first-come, first-served ticket drops introduced an unusual content design challenge: how do you create anticipation without creating unrealistic expectations?",
-              "Winning required users to opt in, join a Shopify-hosted queue at a specific time, and compete for an extremely limited number of tickets—sometimes only 20 tickets for 100,000 entrants. The experience needed to feel exciting while accurately communicating that participation didn't guarantee success.",
-              "We ran this structure several times, with each drop functioning as a live usability test. After each event, we refined the experience based on observed user confusion.",
-              "Following the Super Bowl drop, I rewrote the in-app instructions to make participation requirements more explicit. Following the NBA Finals drop, I revised queue messaging within Shopify to more clearly distinguish joining the queue from actually receiving tickets.",
-              "When the Gold Bar Private Sale surfaced similar frustrations, our team ultimately shifted away from first-come-first-served mechanics entirely. For the World Cup ticket drop, we moved to asynchronous backend allocation, significantly reducing disappointment while preserving excitement.",
+              "Winning required users to opt in, join a Shopify-hosted queue at a specific time, and compete for an extremely limited number of tickets—sometimes only 20 tickets for 100,000 entrants.",
+              "The experience needed to feel exciting while accurately communicating that participation didn't guarantee success.",
+              "We ran this structure several times, with each drop functioning as a live usability test. After each event, we refined the experience based on observed user confusion."
+            ]
+          },
+          {
+            asList: true,
+            items: [
+              "After the Super Bowl drop, I rewrote the in-app instructions to make participation requirements <strong>more explicit.</strong>",
+              "Following the NBA Finals drop, I revised queue messaging within Shopify to more clearly distinguish joining the queue from actually receiving tickets.",
+              "When the Gold Bar Private Sale surfaced similar frustrations, our team ultimately shifted away from first-come-first-served mechanics entirely.",
+              "For the World Cup ticket drop, we moved to asynchronous backend allocation, significantly <strong>reducing disappointment while preserving excitement.<strong>"
+            ]
+          },
+          {
+            items: [
               "Each drop informed the next. By treating launch as the beginning rather than the finish line, we both refined the experience and evolved the underlying system with every release."
             ]
           }
