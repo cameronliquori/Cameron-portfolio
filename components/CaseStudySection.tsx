@@ -102,6 +102,23 @@ export default function CaseStudySection({ section }: { section: CaseStudySectio
       </div>
     );
   }
+  
+    // Layout B2: table only, no body text → full-width table
+  if (hasTable && !hasBody) {
+    return (
+      <div className="py-16 border-t border-line">
+        {section.heading && (
+          <h2 className="font-display text-h2 mb-8">{section.heading}</h2>
+        )}
+        <CaseStudyTable table={section.table!} />
+        {hasMetrics && (
+          <div className="mt-10">
+            <MetricsGrid metrics={section.metrics!} />
+          </div>
+        )}
+      </div>
+    );
+  }
 
   // Layout C: body text only
   return (
