@@ -474,8 +474,8 @@ export const caseStudies: CaseStudyData[] = [
           }
         ],
         images: [
-          { id: "gold-rewards-decision-2-img-1", src: "", caption: "iPhone screen placeholder" },
-          { id: "gold-rewards-decision-2-img-2", src: "", caption: "iPhone screen placeholder" }
+          { id: "gold-rewards-decision-2-img-1", src: "Crypto-gift.GIF", caption: "iPhone screen placeholder" },
+          { id: "gold-rewards-decision-2-img-2", src: "World-cup.GIF", caption: "iPhone screen placeholder" }
         ]
       },
       {
