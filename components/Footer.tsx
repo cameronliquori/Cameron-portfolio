@@ -14,8 +14,10 @@ export default function Footer() {
           >
             Email
           </a>
-          <a
+            <a
             href="https://www.linkedin.com/in/cameron-liquori"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-small text-ink-muted hover:text-ink transition-colors duration-200 ease-smooth"
           >
             LinkedIn
