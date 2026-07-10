@@ -4,7 +4,7 @@ export const caseStudies: CaseStudyData[] = [
   {
     slug: "hood-holidays",
     title: "HOOD Holidays 2025",
-    subtitle: "6 days. $7M in prizes. 100+ screens. One content POV to take it from 0 to 1.",
+    subtitle: "6 days. $7M in prizes. 100+ screens. One content POV to take it to 100.",
     company: "Robinhood",
     thumbnail: "/Hood-holidays-hero.jpg",
     tags: ["Systems Design", "Content Design"],
