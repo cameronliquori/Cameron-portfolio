@@ -203,7 +203,7 @@ export const caseStudies: CaseStudyData[] = [
     title: "Gold Card Voice & Tone",
     subtitle: "Building a voice system and a seat at the table—from copy support to strategic partner.",
     company: "Robinhood",
-    thumbnail: "/Gold-card-hero.PNG",
+    thumbnail: "/Option-2.PNG",
     tags: ["Systems Design", "Content Design"],
     eyebrow: "Systems Design | Content Design",
     heroDescription: "Building a voice system and a seat at the table—from copy support to strategic partner.",
