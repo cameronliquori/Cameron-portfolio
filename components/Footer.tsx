@@ -22,11 +22,15 @@ export default function Footer() {
           >
             LinkedIn
           </a>
-          <Link
-            href="/about"
+          <a
+            href="/Cameron Liquori - Resume 2026 2.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-small text-ink-muted hover:text-ink transition-colors duration-200 ease-smooth"
           >
             Resume
+          </a>
+
           </Link>
         </div>
       </div>
