@@ -9,13 +9,13 @@ export default function Footer() {
         </p>
         <div className="flex items-center gap-10">
           <a
-            href="mailto:hello@cameronliquori.com"
+            href="mailto:cameron.liquori@gmail.com"
             className="text-small text-ink-muted hover:text-ink transition-colors duration-200 ease-smooth"
           >
             Email
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/cameron-liquori"
             className="text-small text-ink-muted hover:text-ink transition-colors duration-200 ease-smooth"
           >
             LinkedIn
