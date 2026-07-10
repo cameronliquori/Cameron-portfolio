@@ -17,14 +17,6 @@ export default function Hero() {
             Get in touch
           </Button>
         </div>
-
-        {/* Placeholder for hero illustration — swap with real asset later */}
-        <div
-          className="hidden md:flex w-[180px] h-[180px] rounded-full border border-ink/15 items-center justify-center text-ink-muted text-small shrink-0"
-          aria-hidden="true"
-        >
-          Illustration
-        </div>
       </div>
     </section>
   );
