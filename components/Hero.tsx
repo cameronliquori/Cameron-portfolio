@@ -13,7 +13,7 @@ export default function Hero() {
             translating complex concepts and products into intuitive, empowering
             user experiences.
           </p>
-          <Button href="#contact" variant="primary">
+          <Button href="mailto:Cameron.liquori@gmail.com" variant="primary">
             Get in touch
           </Button>
         </div>
