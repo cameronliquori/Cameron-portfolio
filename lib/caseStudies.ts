@@ -407,23 +407,26 @@ export const caseStudies: CaseStudyData[] = [
           }
         ]
       },
-      {
+            {
         id: "decision-1",
         heading: "Key Decision 1: Defining a New Rewards Language",
         subLists: [
           {
             items: [
-              "Before we designed new rewards, we had to answer a more fundamental question: <em>what should the Gold Rewards Program actually be?</em>",
-              "When we kicked off, Robinhood already had multiple incentive ecosystems: Gold membership benefits, Gold Card point rewards, the Offers Hub, and promotional incentives. By introducing another destination, users could easily assume this was undifferentiated from the existing offers experience.",
-              "The Offers Hub team initially proposed that we merged the new program directly into their page. <strong>I advocated against this</strong>—the Offers Hub intentionally mixed Gold and non-Gold promotions. The Gold Rewards program needed to feel like an exclusive membership benefit, not another standard list of promotions.",
-              "Keeping the experiences separate reinforced the premium, Gold-only positioning while creating a <strong>clearer mental model</strong> for customers.",
-              "I also advocated against using Gold Card points for the MVP of our rewards program. While reusing the existing points ecosystem might have created internal consistency, it would have excluded Gold members without the credit card and complicated the experience with another prerequisite."
+              "Before we designed new rewards, we had to answer a more fundamental question: what should the Gold Rewards Program actually be?",
+              "When we kicked off, Robinhood already had multiple incentive ecosystems: Gold membership benefits, Gold Card point rewards, Offers Hub, and promotional incentives. Introducing another destination created an immediate risk—users could easily assume this was undifferentiated from the existing offers experience.",
+              "The Offers Hub team initially proposed that we merged the new program directly into their page. I advocated against this—the Offers Hub intentionally mixed Gold and non-Gold promotions. The Gold Rewards program, on the other hand, needed to feel like an exclusive membership benefit—not another standard list of promotions.",
+              "Keeping the experiences separate reinforced the premium, Gold-only positioning while creating a clearer mental model for customers.",
+              "I also pushed against using Gold Card points for the MVP of our rewards program. While reusing the existing points ecosystem might have created internal consistency, it would have excluded Gold members without the credit card and complicated the experience with another prerequisite."
             ]
           }
         ],
         images: [
-  { id: "gold-rewards-decision-1-diagram", src: "/Chart of perks.png", caption: "Diagram placeholder: ecosystem positioning diagram", aspect: "aspect-[16/9]" }
-],
+          { id: "gold-rewards-decision-1-diagram", src: "/Chart of perks.png", caption: "Diagram placeholder: ecosystem positioning diagram", aspect: "aspect-[16/9]" }
+        ]
+      },
+      {
+        id: "decision-1-table",
         table: {
           headers: ["Option", "Pros", "Cons"],
           rows: [
@@ -441,9 +444,9 @@ export const caseStudies: CaseStudyData[] = [
               "Separate Gold Rewards Program page",
               "Clearer and cleaner mental model",
               "New destination, need to build from scratch"
-            ],
+            ]
           ],
-          footer: "My recommendation: Separate Gold Rewards Program page",
+          footer: "My recommendation: Separate Gold Rewards Program page"
         }
       },
       {
