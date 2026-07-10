@@ -6,6 +6,7 @@ export const caseStudies: CaseStudyData[] = [
     title: "HOOD Holidays 2025",
     subtitle: "6 days. $7M in prizes. 100+ screens. One content POV to take it from 0 to 1.",
     company: "Robinhood",
+    thumbnail: "/Hood-holidays-hero.jpg",
     tags: ["Systems Design", "Content Design"],
     eyebrow: "0 → 1 launch | Systems Design | Content Design",
     heroDescription:
@@ -202,6 +203,7 @@ export const caseStudies: CaseStudyData[] = [
     title: "Gold Card Voice & Tone",
     subtitle: "Building a voice system and a seat at the table—from copy support to strategic partner.",
     company: "Robinhood",
+    thumbnail: "/Gold-card-hero.PNG",
     tags: ["Systems Design", "Content Design"],
     eyebrow: "Systems Design | Content Design",
     heroDescription: "Building a voice system and a seat at the table—from copy support to strategic partner.",
