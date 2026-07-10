@@ -30,8 +30,6 @@ export default function Footer() {
           >
             Resume
           </a>
-
-          </Link>
         </div>
       </div>
     </footer>
