@@ -454,7 +454,21 @@ export const caseStudies: CaseStudyData[] = [
             items: [
               "Instead of asking, \"How can we save people money with Gold?\" we asked, \"What would feel genuinely exciting to receive every month?\"",
               "We intentionally chose experiences, physical goods, and surprises over traditional discounts because we wanted Gold to feel aspirational and packed with real-world value, rather than transactional.",
-              "From April through June, the ecosystem included monthly first-come, first-served ticket drops for high-profile events, monthly crypto mystery gifts, six complimentary months of DashPass, the Gold Collection merchandise store, and a limited-time Gold Bar Private Sale.",
+              "From April through June, the ecosystem included:"
+            ]
+          },
+          {
+            asList: true,
+            items: [
+              "Monthly first-come, first-served ticket drops for high-profile sporting events",
+              "Monthly crypto mystery gifts",
+              "Six complimentary months of DashPass",
+              "The Gold Collection merchandise store",
+              "A limited-time Gold Bar Private Sale"
+            ]
+          },
+          {
+            items: [
               "Although the launch included five distinct reward types, my goal wasn't to design five separate experiences. I established reusable patterns for naming, hierarchy, eligibility, and recurring user flows so future rewards could slot naturally into the experience without reinventing it each month."
             ]
           }
