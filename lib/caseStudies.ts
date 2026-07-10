@@ -422,7 +422,7 @@ export const caseStudies: CaseStudyData[] = [
           }
         ],
         images: [
-  { id: "gold-rewards-decision-1-diagram", src: "Chart of perks.png", caption: "Diagram placeholder: ecosystem positioning diagram", aspect: "aspect-video" }
+  { id: "gold-rewards-decision-1-diagram", src: "/Chart of perks.png", caption: "Diagram placeholder: ecosystem positioning diagram", aspect: "aspect-[16/9]" }
 ],
         table: {
           headers: ["Option", "Pros", "Cons"],
