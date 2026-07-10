@@ -34,6 +34,7 @@ export type ProjectCardData = {
   company: string;
   tags: string[];
   eyebrow: string;
+  thumbnail?: string;
 };
 
 export type CaseStudyData = ProjectCardData & {
