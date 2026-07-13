@@ -362,7 +362,7 @@ export const caseStudies: CaseStudyData[] = [
     title: "Gold Rewards Program",
     subtitle: "Building a premium membership beyond APY.",
     company: "Robinhood",
-    tags: ["Growth", "Syetems Design", "Content Design"],
+    tags: ["Growth", "Systems Design", "Content Design"],
     eyebrow: "Growth | Systems Design | Content Design",
     heroDescription: "Building a premium membership beyond APY.",
     heroMetricsSummary: "120K new Gold subscriptions · 5 distinct reward types · Reusable patterns for recurring monthly rewards",
