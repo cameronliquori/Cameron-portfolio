@@ -527,9 +527,9 @@ export const caseStudies: CaseStudyData[] = [
         subLists: [
           {
             items: [
-              "Within three months, Gold Rewards contributed to more than 120,000 new Gold subscriptions, helping reposition Gold around recurring monthly value rather than a single hero benefit.",
-              "Among the available rewards, the monthly crypto gifts became the strongest acquisition driver, while recurring monthly rewards encouraged users to return throughout the month rather than viewing Gold as a one-time purchase.",
-              "The first-come, first-served events also taught us valuable lessons about expectation management, ultimately influencing how future limited releases were designed."
+              "The Gold Rewards Program drove more than <strong>120,000</strong> new Gold subscriptions within 3 months of launch, helping reposition Gold around recurring monthly value rather than a single hero benefit.",
+              "Among the available rewards, the monthly crypto gifts became the strongest acquisition driver, while recurring monthly rewards encouraged users to return rather than viewing Gold as a one-time purchase.",
+              "The first-come, first-served events also gave us valuable insight about expectation management, ultimately influencing how future limited releases were designed."
             ]
           }
         ]
@@ -546,7 +546,7 @@ export const caseStudies: CaseStudyData[] = [
           {
             value: "120K+",
             label: "new Gold subscriptions",
-            detail: "Within three months of launch"
+            detail: "Total within first 3 months"
           },
           {
             value: "5",
@@ -554,8 +554,8 @@ export const caseStudies: CaseStudyData[] = [
             detail: "Tickets, crypto gifts, DashPass, merchandise, and private sales"
           },
           {
-            value: "Reusable",
-            label: "patterns for recurring monthly rewards",
+            value: "Reusable templates",
+            label: "for recurring monthly rewards",
             detail: "Naming, hierarchy, eligibility, and user flows built to scale"
           }
         ]
