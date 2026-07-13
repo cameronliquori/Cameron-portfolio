@@ -366,7 +366,7 @@ export const caseStudies: CaseStudyData[] = [
     eyebrow: "Growth | Systems Design | Content Design",
     heroDescription: "Building a premium membership beyond APY.",
     heroMetricsSummary: "120K new Gold subscriptions · 5 distinct reward types · Reusable patterns for recurring monthly rewards",
-    HeroImage: "Rewards-hero.JPG",
+    heroImage: "Rewards-hero.JPG",
     titleNoWrap: true,
     sections: [
       {
