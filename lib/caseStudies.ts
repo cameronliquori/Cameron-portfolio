@@ -445,7 +445,7 @@ export const caseStudies: CaseStudyData[] = [
         subLists: [
           {
             items: [
-              "Gold needed to feel aspirational and packed with real-world value, rather than transactional."
+              "Gold needed to feel aspirational and packed with real-world value, rather than transactional.",
               "Instead of asking, \"How can we save people money with Gold?\" we asked, \"What would feel genuinely exciting to receive every month?\"",
               "Due to this, we intentionally chose experiences, physical goods, and surprises over traditional discounts.",
               "From April through June, the ecosystem included:"
