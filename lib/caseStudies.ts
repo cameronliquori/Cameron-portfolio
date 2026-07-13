@@ -362,8 +362,8 @@ export const caseStudies: CaseStudyData[] = [
     title: "Gold Rewards Program",
     subtitle: "Building a premium membership beyond APY.",
     company: "Robinhood",
-    tags: ["Growth", "Content Design"],
-    eyebrow: "Growth | Content Design",
+    tags: ["Growth", "Syetems Design", "Content Design"],
+    eyebrow: "Growth | Systems Design | Content Design",
     heroDescription: "Building a premium membership beyond APY.",
     heroMetricsSummary: "120K new Gold subscriptions · 5 distinct reward types · Reusable patterns for recurring monthly rewards",
     titleNoWrap: true,
@@ -375,10 +375,12 @@ export const caseStudies: CaseStudyData[] = [
         subLists: [
           {
             items: [
-              "Robinhood Gold is a premium subscription built around a hero value proposition: a market-leading APY on uninvested cash.",
-              "But as interest rates fluctuated, that value proposition became less differentiated. At the same time, many members weren't engaging with Gold's other perks, making it harder to justify a $5/month subscription.",
-              "To <strong>redefine Gold's value beyond APY</strong>, our team created the Gold Rewards Program: a new monthly ecosystem of premium experiences and exclusive products designed to give members a compelling reason to return every month.",
-              "I partnered with Product Design from the earliest concept sketches through launch, leading content strategy, information architecture, naming, and UX writing across the experience."
+              "Robinhood Gold is a premium subscription built around a hero value proposition: a market-leading APY on uninvested cash. But as interest rates fluctuated, that advantage became less differentiated, while many members weren’t engaging with Gold’s other benefits.",
+              "To continue growing the membership, we needed to <em>redefine what Gold represented</em>—and give members a compelling reason to stay subscribed beyond APY alone.",
+              "The objective: create recurring, <strong>\“no-brainer\”</strong> value that users could immediately understand, whether or not they were active traders.",
+              "Every reward needed to answer one question: Would this alone make Gold feel worth $5 a month?",
+              "To accomplish this, our team created the <strong>Gold Rewards Program</strong>: a monthly ecosystem of premium experiences, exclusive products, and limited-time perks designed to deliver memorable value and give members a reason to return every month.",
+              "From the earliest concept sketches through launch, I partnered closely with Product Design to shape the experience, leading content strategy, information architecture, product naming, UX writing, and cross-functional product definition across the program.",
             ]
           },
           {
@@ -396,20 +398,6 @@ export const caseStudies: CaseStudyData[] = [
         ]
       },
       {
-        id: "problem",
-        heading: "The Problem",
-        fullWidth: true,
-        subLists: [
-          {
-            items: [
-              "APY was becoming a weaker acquisition story—we needed to broaden what a \"Gold membership\" meant, and why it was worth paying for.",
-              "Our objective: create monthly, \"no-brainer\" value that users could immediately understand, whether or not they were advanced traders. Every reward needed to answer one question: <em>\"Would this alone make Gold feel worth $5 a month?\"</em>",
-              "This shifted the conversation away from financial incentives and towards memorable experiences and tangible value."
-            ]
-          }
-        ]
-      },
-            {
         id: "decision-1",
         heading: "Key Decision 1: Defining a New Rewards Language",
         subLists: [
@@ -424,7 +412,7 @@ export const caseStudies: CaseStudyData[] = [
           }
         ],
         images: [
-          { id: "gold-rewards-decision-1-diagram", src: "/Chart of perks.png", caption: "Diagram placeholder: ecosystem positioning diagram", aspect: "aspect-[16/9]" }
+          { id: "gold-rewards-decision-1-diagram", src: "/Chart of perks.png", caption: "Ecosystem positioning diagram", aspect: "aspect-[16/9]" }
         ]
       },
       {
@@ -457,8 +445,9 @@ export const caseStudies: CaseStudyData[] = [
         subLists: [
           {
             items: [
+              "Gold needed to feel aspirational and packed with real-world value, rather than transactional."
               "Instead of asking, \"How can we save people money with Gold?\" we asked, \"What would feel genuinely exciting to receive every month?\"",
-              "We intentionally chose experiences, physical goods, and surprises over traditional discounts because we wanted Gold to feel aspirational and packed with real-world value, rather than transactional.",
+              "Due to this, we intentionally chose experiences, physical goods, and surprises over traditional discounts.",
               "From April through June, the ecosystem included:"
             ]
           },
@@ -474,13 +463,13 @@ export const caseStudies: CaseStudyData[] = [
           },
           {
             items: [
-              "Although the launch included five distinct reward types, my goal wasn't to design five separate experiences. I established reusable patterns for naming, hierarchy, eligibility, and recurring user flows so future rewards could slot naturally into the experience without reinventing it each month."
+              "Although the launch included five distinct reward types, my goal wasn't to design five separate experiences. I established <strong>reusable patterns for naming, hierarchy, eligibility, and recurring user flows</strong> so future rewards could slot naturally into the experience without reinventing it each month."
             ]
           }
         ],
         images: [
-          { id: "gold-rewards-decision-2-img-1", src: "/Crypto gift.GIF" },
-          { id: "gold-rewards-decision-2-img-2", src: "/World cup.GIF" }
+          { id: "gold-rewards-decision-2-img-1", src: "/Crypto gift.GIF", caption: "Crypto mystery gift" },
+          { id: "gold-rewards-decision-2-img-2", src: "/World cup.GIF", caption: "World Cup ticket drop" }
         ]
       },
       {
